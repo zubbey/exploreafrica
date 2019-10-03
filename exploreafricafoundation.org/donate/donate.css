@@ -1,0 +1,129 @@
+.hidden_pay{display: none;}
+#modal {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(7, 9, 19, 0.71); /* Black background with opacity */
+        z-index: 2;
+        top: 0; 
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 5000; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  
+    }
+    #pay_btn{
+        z-index: 5;
+        margin: auto;
+        float: right;
+        width: 100%;
+        padding: 20px;
+        background-color: #343552;
+        border: none;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        color: #fff;
+        font-size: 1.7em;
+    }
+    #pay_btn:hover{
+        cursor: pointer;
+        background: #6c6e8c;
+    }
+    #pay_btn:hover,#pay_btn:focus,#pay_btn:active,{border: none; background: #666e8d;}
+    .row_pay{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 220px auto;
+        width: 300px;
+    }
+    .col_pay{
+        background: #fff;
+        color:#454d6f;
+        padding: 30px;
+        width: 100%;
+    }
+    .col_pay .h4{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+.auto .row:first-child{width: 70%;
+	margin:auto;
+}
+.auto .col{
+	margin:1% 0px;
+}
+.auto .full-w-b{background: gainsboro;width: 100%;}
+.auto .line1{border-right: 1px solid #ddd;height: auto;}.line2{border-right: 1px solid #b9b9b9;height: auto;}
+.line-break{text-align: center; margin:10px auto 0px auto; width: 100%;}
+
+.row .h5{margin: 15px 0px;}
+.row .h5:last-child{text-align: center;color: blue;}
+.form-row >  button{
+    margin: 0px 5px 0 0;
+}
+.form-row > #amount_d {
+    font-size: 35px;
+    font-weight: bolder;
+    display: inline-block;
+    color: #444;
+    background: #fff;
+    width: 200px;
+    border: none;
+}
+.btn-lg, .btn-group-lg>.btn {
+    padding: .5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #454d6f;
+    border-color: #454d6f;
+    float: right;
+    margin: 5px;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show>.btn-secondary.dropdown-toggle{
+	color: #fff;
+    background-color: #f7631b;
+    border-color: #f7631b;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #7e8cab;
+    border-color: #7e8cab;
+}
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+	box-shadow: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f7631b;
+    outline: 0;
+    box-shadow: 0 0 0 0.9px #f7631b;
+}
+input [type="checkbox"]{border: solid 5px #000;}
+
+.custom-control-label {
+    margin-bottom: 10px;
+    color: #000;
+}
+.custom-checkbox .custom-control-label::before{
+	border: 2px solid #04091e; color:  #28a745;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+	background-color: #28a745;
+	color: #28a745;
+	border: none;
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+	background-color: #28a745;color: #28a745;border: none;
+}
+
+ #info{margin:20px 0;}
+
