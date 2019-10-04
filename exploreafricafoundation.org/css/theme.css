@@ -1,8 +1,76 @@
-/* NEW VERSION 2.0 FOR EXPLORE AFRICA FOUNDATION WEBSITE #########################################################*/
+:root {
+    --default-bg-color: #000;
+    --section-bg-color: #f2f2f2;
+    --exploreafrica-color: #ad2042;
+    --primary-color: #fff;
+    --secondary-color: coral;
+    --inactive-color: coral;
+    --inactive: coral;
+    --active: coral;
+    --default-font: 18px/1.2 "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+    --nav-font-size: 20px;
+    --nav-font-weight: 700;
+    --heading: coral;
+    --sub-heading: coral;
+    --body: coral;
+    --default-link: #fff;
+    --link: #ad2042;
+    --divider: coral;
+    --default-button: coral;
+    --big-button: coral;
+    --small-button: coral;
+}
 
+*{
+    font: var(--default-font);
+}
 .navbar-expand-lg .navbar-collapse{
     justify-content: flex-end;
 }
-body{
-    background: #0b8eff;
+.body{
+    background-color: var(--default-bg-color);
+}
+a{
+    color: var(--default-link);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--default-link);
+}
+.fa{
+    padding-left: 5px;
+}
+.navbar-nav{
+    margin-right: 1rem;
+}
+.nav-link{
+    font-size: var(--nav-font-size);
+    font-weight: var(--nav-font-weight);
+}
+.navbar-brand{
+    font-weight: var(--nav-font-weight);
+}
+.navbar-brand>span{
+    font-weight: 300;
+    font-size: 20px;
+}
+.default-big-button {
+    border-radius: 8px;
+    height: 64px;
+    padding: 20px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    background-color: var(--exploreafrica-color);
+    color: var(--primary-color);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: none;
 }
