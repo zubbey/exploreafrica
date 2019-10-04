@@ -1,8 +1,9 @@
 :root {
-    --default-bg-color: #000;
+    --default-bg-color: #fff;
     --section-bg-color: #f2f2f2;
     --exploreafrica-color: #ad2042;
-    --primary-color: #fff;
+    --default-color-w: #fff;
+    --default-color-b: #686868;
     --secondary-color: coral;
     --inactive-color: coral;
     --inactive: coral;
@@ -15,6 +16,7 @@
     --body: coral;
     --default-link: #fff;
     --link: #ad2042;
+    --hover-link: #821832;
     --divider: coral;
     --default-button: coral;
     --big-button: coral;
@@ -24,31 +26,52 @@
 *{
     font: var(--default-font);
 }
-.navbar-expand-lg .navbar-collapse{
-    justify-content: flex-end;
-}
+/*.navbar-expand-lg .navbar-collapse{*/
+/*    justify-content: flex-end;*/
+/*}*/
 .body{
     background-color: var(--default-bg-color);
 }
+.section-1{
+    background-color: var(--default-bg-color);
+}
+.section-2{
+    max-width: 100% !important;
+    height: 100vh;
+    background-color: var(--section-bg-color);
+}
 a{
-    color: var(--default-link);
+    color: var(--default-color-b);
+}
+.navtop a{
+    font-weight: var(--nav-font-weight);
+    color: var(--exploreafrica-color);
+    font-size: var(--nav-font-size);
 }
 a:hover{
     text-decoration: none;
-    color: var(--default-link);
+    color: var(--hover-link);
 }
 .fa{
     padding-left: 5px;
 }
+.navtop .big-button-link{
+    color: var(--default-link);
+}
 .navbar-nav{
     margin-right: 1rem;
 }
-.nav-link{
-    font-size: var(--nav-font-size);
-    font-weight: var(--nav-font-weight);
+.navtop>.navbar-brand{
+
+}
+.navtop{
+    justify-content: flex-end;
 }
 .navbar-brand{
     font-weight: var(--nav-font-weight);
+    color: var(--exploreafrica-color);
+    font-size: var(--nav-font-size);
+    flex: auto;
 }
 .navbar-brand>span{
     font-weight: 300;
