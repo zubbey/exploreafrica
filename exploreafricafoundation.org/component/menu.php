@@ -55,34 +55,40 @@
                  alt="explore africa logo">
             Explore Africa <span>Foundation</span>
         </a>
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">info@exploreafricafoundation.org <span class="sr-only">(current)</span></a>
-            </li>
-        </ul>
-        <button class="btn default-big-button" type="button"><a class="big-button-link" href="../donate.php">Donate Now <i
-                        class="fa fa-heart"></i></a></button>
-    </nav>
-    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-bars"></i></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Our Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Join Us</a>
+                    <a class="nav-link top-link" href="#">info@exploreafricafoundation.org <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
+            <button class="btn default-big-button" type="button"><a class="big-button-link" href="../donate.php">Donate
+                    Now <i
+                            class="fa fa-heart"></i></a></button>
         </div>
+    </nav>
+</div>
+<!--    NAVIGATION MENU STARTS HERE ##############################-->
+<div class="divider"></div>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbottom">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Latest <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Our Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Join Us</a>
+            </li>
+        </ul>
     </nav>
 </div>

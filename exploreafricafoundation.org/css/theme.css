@@ -5,9 +5,9 @@
     --default-color-w: #fff;
     --default-color-b: #686868;
     --secondary-color: coral;
-    --inactive-color: coral;
+    --inactive-color: #adadad;
     --inactive: coral;
-    --active: coral;
+    --active: var(--default-color-b);
     --default-font: 18px/1.2 "Roboto", "Helvetica Neue", Helvetica, sans-serif;
     --nav-font-size: 20px;
     --nav-font-weight: 700;
@@ -17,7 +17,7 @@
     --default-link: #fff;
     --link: #ad2042;
     --hover-link: #821832;
-    --divider: coral;
+    --divider: solid 1px #c6c6c6;
     --default-button: coral;
     --big-button: coral;
     --small-button: coral;
@@ -26,14 +26,15 @@
 *{
     font: var(--default-font);
 }
-/*.navbar-expand-lg .navbar-collapse{*/
-/*    justify-content: flex-end;*/
-/*}*/
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
 .body{
     background-color: var(--default-bg-color);
 }
 .section-1{
     background-color: var(--default-bg-color);
+    margin: 10px auto;
 }
 .section-2{
     max-width: 100% !important;
@@ -43,7 +44,13 @@
 a{
     color: var(--default-color-b);
 }
-.navtop a{
+.nav-link{
+    color: var(--inactive-color);
+}
+.nav-link:hover{
+    color: var(--default-color-b);
+}
+.navtop .top-link{
     font-weight: var(--nav-font-weight);
     color: var(--exploreafrica-color);
     font-size: var(--nav-font-size);
@@ -51,6 +58,10 @@ a{
 a:hover{
     text-decoration: none;
     color: var(--hover-link);
+}
+.active a{
+    color: var(--active);
+    font-weight: var(--nav-font-weight);
 }
 .fa{
     padding-left: 5px;
@@ -61,15 +72,12 @@ a:hover{
 .navbar-nav{
     margin-right: 1rem;
 }
-.navtop>.navbar-brand{
-
-}
 .navtop{
     justify-content: flex-end;
 }
 .navbar-brand{
     font-weight: var(--nav-font-weight);
-    color: var(--exploreafrica-color);
+    color: var(--default-color-b);
     font-size: var(--nav-font-size);
     flex: auto;
 }
@@ -96,4 +104,57 @@ a:hover{
     -ms-flex-align: center;
     align-items: center;
     text-transform: none;
+}
+.divider{
+    max-width: 100%;
+    border-bottom: var(--divider);
+}
+.navbar-toggler-icon{
+    color: var(--default-color-b);
+}
+.bar-rotate {
+    transform: rotate(90deg);
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar{
+        padding: 0;
+    }
+    .navtop .top-link{
+        display: none;
+    }
+    .default-big-button{
+        height: 45px;
+        padding: 10px;
+    }
+    .navbar-nav{
+        justify-content: space-between;
+        display: inline-block;
+    }
+    li.nav-item{
+        display: inline-block;
+        padding-left: 10px ;
+    }
+    .navbar-toggler{
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .navbar-brand {
+        font-size: 15px;
+    }
+    .navbar-brand>span {
+        font-weight: 300;
+        font-size: 15px;
+    }
 }
