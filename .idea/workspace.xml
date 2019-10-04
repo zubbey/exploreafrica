@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04219856-1c18-458e-a92a-dd58c8b23afa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +16,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570152350146</updated>
-      <workItem from="1570152351933" duration="2996000" />
+      <workItem from="1570152351933" duration="7968000" />
     </task>
     <servers />
   </component>

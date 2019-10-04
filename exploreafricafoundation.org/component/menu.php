@@ -16,20 +16,20 @@
 
     <!-- fav icon for multi Platform
     ================================================ -->
-    <link rel="apple-touch-icon" sizes="57x57" href="../img/fav/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../img/fav/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../img/fav/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../img/fav/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../img/fav/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../img/fav/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/fav/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../img/fav/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/fav/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/fav/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="../img/fav/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../img/fav/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/fav/favicon-16x16.png">
-    <link rel="manifest" href="../img/fav/manifest.json">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav/favicon-16x16.png">
+    <link rel="manifest" href="./img/fav/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -37,23 +37,15 @@
     <!--
     CSS
     ============================================= -->
-    <link rel="stylesheet" href="../css/linearicons.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!--    <link rel="stylesheet" href="../css/bootstrap.css">-->
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/animate.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/jquery-ui.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/custom.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/theme.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light order-0">
     <a class="navbar-brand" href="#">
         <img src="./img/EAF_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Explore Africa Foundation
@@ -77,4 +69,7 @@
             </li>
         </ul>
     </div>
+    <form class="form-inline">
+        <button class="btn btn-outline-success" type="button"><a href="../donate.php">Donate Now</a> <span class="glyphicon glyphicon-heart"></span> </button>
+    </form>
 </nav>
