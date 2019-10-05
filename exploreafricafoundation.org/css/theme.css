@@ -8,8 +8,8 @@
     --inactive-color: #adadad;
     --inactive: coral;
     --active: var(--default-color-b);
-    --default-font: 18px/1.2 "Roboto", "Helvetica Neue", Helvetica, sans-serif;
-    --nav-font-size: 20px;
+    --default-font: 15px/1.2 "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+    --nav-font-size: 19px;
     --nav-font-weight: 700;
     --heading: coral;
     --sub-heading: coral;
@@ -37,15 +37,19 @@
     margin: 10px auto;
 }
 .section-2{
-    max-width: 100% !important;
+    /*max-width: 100% !important;*/
     height: 100vh;
     background-color: var(--section-bg-color);
 }
 a{
     color: var(--default-color-b);
 }
+.nav-item {
+    padding-right: 2em;
+}
 .nav-link{
     color: var(--inactive-color);
+    padding: 0.8rem !important;
 }
 .nav-link:hover{
     color: var(--default-color-b);
@@ -62,6 +66,7 @@ a:hover{
 .active a{
     color: var(--active);
     font-weight: var(--nav-font-weight);
+    border-bottom: solid 3px var(--exploreafrica-color);
 }
 .fa{
     padding-left: 5px;
@@ -69,11 +74,17 @@ a:hover{
 .navtop .big-button-link{
     color: var(--default-link);
 }
+.navbar{
+    padding: 0;
+}
 .navbar-nav{
     margin-right: 1rem;
 }
 .navtop{
     justify-content: flex-end;
+}
+.navtop .nav-item{
+    padding-right: 0.5em;
 }
 .navbar-brand{
     font-weight: var(--nav-font-weight);
@@ -87,8 +98,8 @@ a:hover{
 }
 .default-big-button {
     border-radius: 8px;
-    height: 64px;
-    padding: 20px;
+    /*height: 64px;*/
+    padding: 18px;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
     text-decoration: none;
@@ -112,10 +123,15 @@ a:hover{
 .navbar-toggler-icon{
     color: var(--default-color-b);
 }
-.bar-rotate {
+.icon-rotate{
     transform: rotate(90deg);
 }
-
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -123,7 +139,13 @@ a:hover{
 
 @media (min-width: 320px) and (max-width: 480px) {
     .navbar{
-        padding: 0;
+        padding: 0.3rem;
+    }
+    .nav-link{
+        padding: 0.3rem !important;
+    }
+    .nav-item {
+        padding-right: 0rem;
     }
     .navtop .top-link{
         display: none;
@@ -142,6 +164,10 @@ a:hover{
     }
     .navbar-toggler{
         padding: 0;
+        color: var(--default-color-b);
+    }
+    .fa{
+        padding: 0;
     }
 
 }
@@ -149,6 +175,7 @@ a:hover{
 @media (max-width: 320px) {
     .navbar-nav .nav-link{
         font-size: 14px;
+        padding: 0.2rem !important;
     }
     .navbar-brand {
         font-size: 15px;

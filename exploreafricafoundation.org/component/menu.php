@@ -61,8 +61,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link top-link" href="#">info@exploreafricafoundation.org <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link top-link" href="#">info@exploreafricafoundation.org</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link top-link" href="#">Log in</a>
                 </li>
             </ul>
             <button class="btn default-big-button" type="button"><a class="big-button-link" href="../donate.php">Donate
@@ -74,7 +77,7 @@
 <!--    NAVIGATION MENU STARTS HERE ##############################-->
 <div class="divider"></div>
 
-<div class="container">
+<div class="container" >
     <nav class="navbar navbar-expand-lg navbottom">
         <ul class="navbar-nav">
             <li class="nav-item active">

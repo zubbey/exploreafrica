@@ -1,3 +1,3 @@
-<div class="container section-2">
+<div class="container-fluid section-2">
 
 </div>
