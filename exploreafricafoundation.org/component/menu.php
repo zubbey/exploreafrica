@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="stylesheet" href="./css/animate.min.css">
     <!--    <link rel="stylesheet" href="./css/main.css">-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/theme.css">
 </head>
@@ -77,7 +78,7 @@
 <!--    NAVIGATION MENU STARTS HERE ##############################-->
 <div class="divider"></div>
 
-<div class="container" >
+<div class="container menu">
     <nav class="navbar navbar-expand-lg navbottom">
         <ul class="navbar-nav">
             <li class="nav-item active">
@@ -93,5 +94,11 @@
                 <a class="nav-link" href="#">Join Us</a>
             </li>
         </ul>
+        <span class="navbar-text">
+            <button class="btn default-button d-none" id="donatebtn" type="button"><a class="big-button-link" href="../donate.php">Donate
+                Now <i
+                      class="fa fa-heart"></i></a></button>
+    </span>
+
     </nav>
 </div>

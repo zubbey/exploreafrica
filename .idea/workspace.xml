@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04219856-1c18-458e-a92a-dd58c8b23afa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/carousel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/contents.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -40,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570152350146</updated>
       <workItem from="1570152351933" duration="54190000" />
+      <workItem from="1570274632860" duration="4960000" />
     </task>
     <servers />
   </component>
@@ -83,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
