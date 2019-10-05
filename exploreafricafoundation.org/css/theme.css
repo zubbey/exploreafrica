@@ -8,8 +8,10 @@
     --inactive-color: #adadad;
     --inactive: coral;
     --active: var(--default-color-b);
+    --font: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
     --default-font: 15px/1.2 "Roboto", "Helvetica Neue", Helvetica, sans-serif;
     --nav-font-size: 19px;
+    --caption: 50px;
     --nav-font-weight: 700;
     --heading: coral;
     --sub-heading: coral;
@@ -116,6 +118,11 @@ a:hover{
     align-items: center;
     text-transform: none;
 }
+.button-link{
+    color: var(--default-color-w);
+    font-weight: var(--nav-font-weight);
+    font-size: var(--nav-font-size);
+}
 .divider{
     max-width: 100%;
     border-bottom: var(--divider);
@@ -131,6 +138,25 @@ a:hover{
     top: 0;
     width: 100%;
     z-index: 100;
+}
+.caption-heading{
+    font-size: var(--caption);
+    font-family: var(--font);
+    font-weight: var(--nav-font-weight);
+    text-align: center;
+    margin: 0;
+    width: auto;
+}
+.caption-body{
+    font-size: var(--nav-font-size);
+    font-family: var(--font);
+    font-weight: var(--nav-font-weight);
+    text-align: center;
+    margin: 0;
+    width: auto;
+}
+.carousel-caption.d-none.d-md-block {
+    margin-bottom: 6rem;
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)

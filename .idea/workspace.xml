@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04219856-1c18-458e-a92a-dd58c8b23afa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/carousel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/contents.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570152350146</updated>
-      <workItem from="1570152351933" duration="42888000" />
+      <workItem from="1570152351933" duration="49497000" />
     </task>
     <servers />
   </component>
