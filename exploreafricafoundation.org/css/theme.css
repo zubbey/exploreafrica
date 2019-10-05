@@ -43,6 +43,18 @@
     height: 100vh;
     background-color: var(--section-bg-color);
 }
+.section-3{
+    max-width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: var(--default-bg-color);
+}
+.section-4{
+    max-width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: var(--section-bg-color);
+}
 a{
     color: var(--default-color-b);
 }
@@ -157,6 +169,59 @@ a:hover{
 }
 .carousel-caption.d-none.d-md-block {
     margin-bottom: 6rem;
+}
+.jumbotron{
+    background-color: transparent;
+    padding: 0;
+}
+.big-heading{
+    font-size: var(--caption);
+    font-family: var(--font);
+    font-weight: var(--nav-font-weight);
+    color: var(--default-color-b);
+}
+.medium-heading{
+    font-size: var(--nav-font-size);
+    font-family: var(--font);
+    font-weight: var(--nav-font-weight);
+    color: var(--default-color-b);
+}
+.important{
+    color: var(--exploreafrica-color);
+    border-bottom: 1px solid var(--exploreafrica-color);
+    font-size: 20px;
+}
+
+/*SLIDER CARD BEGINS HERE ##################################*/
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+    width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)

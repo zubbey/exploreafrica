@@ -17,18 +17,14 @@
         });
     });
 
-    // window.onscroll = function() {fixonScroll()};
-    //
-    // var header = document.getElementById("myHeader");
-    // var sticky = header.offsetTop;
-    //
-    // function fixonScroll() {
-    //     if (window.pageYOffset > sticky) {
-    //         header.classList.add("sticky");
-    //     } else {
-    //         header.classList.remove("sticky");
-    //     }
-    // }
+    (function($) {
+        "use strict";
+
+        // manual carousel controls
+        $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+        $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+
+    })(jQuery);
 
 </script>
 </body>
