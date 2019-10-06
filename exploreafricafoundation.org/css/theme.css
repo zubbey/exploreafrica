@@ -13,7 +13,7 @@
     --nav-font-size: 19px;
     --caption: 50px;
     --nav-font-weight: 700;
-    --heading: coral;
+    --heading: 30px;
     --sub-heading: coral;
     --body: coral;
     --default-link: #fff;
@@ -101,6 +101,7 @@ a:hover {
 }
 
 .navbottom {
+    min-width: 200px;
     max-width: 1140px;
     margin: auto;
 }
@@ -262,21 +263,34 @@ a:hover {
     font-size: 20px;
 }
 
+.heading{
+    padding: 10px 0;
+    font-size: var(--heading);
+    font-family: var(--font);
+    font-weight: var(--nav-font-weight);
+    color: var(--default-color-b);
+}
+.card-text{
+    font: var(--default-font);
+    color: var(--default-color-b);
+}
 /*SLIDER CARD BEGINS HERE ##################################*/
 /* equal card height */
 * {
     box-sizing: border-box;
 }
-
+.flickity-viewport{
+    background-color: var(--section-bg-color);
+}
 .carousel {
     background: #EEE;
 }
 
 .carousel-cell {
-    width: 66%;
-    height: 200px;
+    width: 40%;
+    height: 380px;
     margin-right: 10px;
-    background: #8C8;
+    background: var(--default-bg-color);
     border-radius: 5px;
     counter-increment: gallery-cell;
 }
@@ -285,13 +299,24 @@ a:hover {
 .carousel-cell:before {
     display: block;
     text-align: center;
-    content: counter(gallery-cell);
+    /*content: counter(gallery-cell);*/
     line-height: 200px;
-    font-size: 80px;
-    color: white;
+    /*font-size: 80px;*/
+    /*color: white;*/
 }
+.flickity-page-dots{
+    display: none;
+}
+.card-text{
+    text-overflow: ellipsis;
 
-
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+}
+.card.mb-3{
+    height: 380px;
+}
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
