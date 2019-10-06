@@ -138,6 +138,9 @@ a:hover {
     font-weight: 300;
     font-size: 20px;
 }
+nav.navbar.navbar-expand-lg.navbottom {
+    justify-content: space-between;
+}
 .big-button-link{
     color: var(--default-color-w);
 }
@@ -242,6 +245,11 @@ a:hover {
     background-color: transparent;
     padding: 0;
 }
+.image-col{
+    background: url("https://i.imgur.com/cqcXHnI.png") no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
 
 .big-heading {
     font-size: var(--caption);
@@ -274,6 +282,10 @@ a:hover {
     font: var(--default-font);
     color: var(--default-color-b);
 }
+span.small a {
+    float: right;
+    font-size: small !important;
+}
 /*SLIDER CARD BEGINS HERE ##################################*/
 /* equal card height */
 * {
@@ -282,17 +294,22 @@ a:hover {
 .flickity-viewport{
     background-color: var(--section-bg-color);
 }
+
+.carousel-cell.is-selected {
+    background: #d5d5d5;
+}
+
 .carousel {
-    background: #EEE;
+    background: #fff;
 }
 
 .carousel-cell {
-    width: 40%;
+    width: 45%;
     height: 380px;
     margin-right: 10px;
     background: var(--default-bg-color);
     border-radius: 5px;
-    counter-increment: gallery-cell;
+    counter-increment: carousel-cell;
 }
 
 /* cell number */
@@ -306,6 +323,10 @@ a:hover {
 }
 .flickity-page-dots{
     display: none;
+}
+.flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
 }
 .card-text{
     text-overflow: ellipsis;
@@ -362,6 +383,24 @@ a:hover {
     .fa {
         padding: 0;
     }
+    .big-heading{
+        font-size: 30px;
+    }
+    .medium-heading{
+        font-size: 14px;
+    }
+    .important{
+        font-size: 12px;
+    }
+    .carousel-cell {
+        width: 100%;
+        height: 280px;
+        margin-right: 10px;
+        background: var(--default-bg-color);
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
 
 }
 
@@ -378,6 +417,19 @@ a:hover {
     .navbar-brand > span {
         font-weight: 300;
         font-size: 15px;
+    }
+}
+
+/* enable Flickity by default */
+.carousel:after {
+    content: 'flickity';
+    display: none; /* hide :after */
+}
+
+@media screen and ( min-width: 768px ) {
+    /* disable Flickity for large devices */
+    .carousel:after {
+        content: '';
     }
 }
 

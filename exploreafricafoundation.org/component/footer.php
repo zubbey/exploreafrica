@@ -13,9 +13,11 @@
             if ($(window).scrollTop() > $('.section-1').height()) {
                 $('.menu').addClass('fixed');
                 $('#donatebtn').removeClass('d-none');
+                $('.navbar-toggler.2').removeClass('d-none');
             } else {
                 $('.menu').removeClass('fixed');
                 $('#donatebtn').addClass('d-none');
+                $('.navbar-toggler.2').addClass('d-none');
             }
         });
     });
@@ -28,6 +30,8 @@
         $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
 
     })(jQuery);
+
+
 
 </script>
 </body>

@@ -80,6 +80,7 @@
 
 <div class="container menu">
     <nav class="navbar navbar-expand-lg navbottom">
+
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Latest <span class="sr-only">(current)</span></a>
@@ -94,7 +95,11 @@
                 <a class="nav-link" href="#">Join Us</a>
             </li>
         </ul>
-        <span class="navbar-text">
+        <button class="navbar-toggler 2 d-none" type="button" data-toggle="collapse" data-target="#donatebtn2"
+                aria-controls="donatebtn2" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-bars"></i></span>
+        </button>
+        <span class=" collapse navbar-collapse navbar-text" id="donatebtn2">
             <button class="btn default-button d-none" id="donatebtn" type="button"><a class="big-button-link" href="../donate.php">Donate
                 Now <i
                       class="fa fa-heart"></i></a></button>

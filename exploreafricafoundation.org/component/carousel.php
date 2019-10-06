@@ -25,7 +25,7 @@
             <div class="carousel-item">
                 <img src="https://i.imgur.com/P95ge6i.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="caption-heading">Support A Child Today<br> And Save a Future</h5>
+                    <h5 class="caption-heading">Support A Child Today<br> And Save the Future</h5>
                     <p class="caption-body">Join Us Today on Our Back To School Support Project <button class="btn" type="button"><a class="button-link" href="../donate.php">Join Now </a></button></p>
                 </div>
             </div>
