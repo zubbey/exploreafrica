@@ -184,6 +184,67 @@
                 </div>
             </div>
         </div>
-
+    </div>
+</div>
+<div class="section-6">
+    <div class="container pt-4 pb-4">
+        <div class="card-columns">
+            <div class="card">
+                <img src="https://i.imgur.com/YZUF1jP.jpg" class="card-img-top" alt="Nigeria Queen">
+                <div class="card-body">
+                    <h5 class="card-title">Miss Ezinne Elizabath Umeh</h5>
+                    <p class="card-text">Ambassador, Explore Africa Foundation.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 Month ago</small></p>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>We all have the ability and Potential to be where we want to be regardless of who we are or where we come from.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Nigerian Queen <cite title="Source Title">Miss Ezinne Umeh</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <img src="https://i.imgur.com/Jst3dzM.jpg" class="card-img-top" alt="Mrs Ernest">
+                <div class="card-body">
+                    <h5 class="card-title">Mrs Joyce Ernest</h5>
+                    <p class="card-text">President (West Africa Region) Explore Africa Foundation.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 years ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>I have had my own fair share of the struggle. And i do recognize the awesome role that adversity plays in the life of a person.</p>
+                    <footer class="blockquote-footer text-white">
+                        <small>
+                            West Africa Region Rep. <cite title="Source Title">Mrs Joyce Ernest</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <img src="https://i.imgur.com/nQVeYR7.jpg" class="card-img-top" alt="Somadina Adinma">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Somadina Adinma</h5>
+                    <p class="card-text">Ambassador, Explore Africa Foundation.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 8 Month ago</small></p>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>Explore Africa Foundation is currently seeking for financial assistance to support indigent children, be that person that will change the life of one child today .</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Nigerian Nollywood Actor <cite title="Source Title">Somadina Adinma</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
     </div>
 </div>

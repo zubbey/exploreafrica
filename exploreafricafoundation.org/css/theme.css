@@ -23,6 +23,7 @@
     --default-button: coral;
     --big-button: coral;
     --small-button: coral;
+    --footer: #e0e0e0;
 }
 
 * {
@@ -69,10 +70,19 @@ img{
     padding: 50px;
     background-color: var(--section-bg-color);
 }
+.section-5 .row {
+    height: 250px;
+}
 a {
     color: var(--default-color-b);
 }
-
+ul {
+    padding:0;
+    margin:0
+}
+li {
+    list-style:none
+}
 .nav-item {
     padding-right: 2em;
 }
@@ -212,6 +222,47 @@ nav.navbar.navbar-expand-lg.navbottom {
 .icon-rotate {
     transform: rotate(90deg);
 }
+/*footer style over here ##################################################*/
+.footer-area{
+    background-color: var(--footer);
+}
+.footer-list{
+    padding: 10px 0;
+}
+.col-lg-6.col-sm-12.footer-social {
+    text-align: end;
+}
+.footer-text.m-0.col-lg-6.col-md-12 {
+    line-height: 1.5;
+}
+
+.footer-row{
+    justify-content: space-between;
+}
+.footer-text.m-0.col-lg-6.col-md-12{
+    color: var(--default-color-b);
+}
+.footer-text.m-0.col-lg-6.col-md-12 a{
+    color: var(--exploreafrica-color);
+}
+footer .divider {
+    max-width: 100%;
+    border-bottom: solid 1px var(--default-color-b);
+}
+.single-footer-widget {
+    color: var(--default-color-b);
+}
+.col-lg-6.col-sm-12.footer-social a {
+    color: var(--exploreafrica-color);
+    font-size: 20px;
+}
+.p-md-5 {
+    padding: 3rem 0 !important;
+}
+.bg-primary{
+    background-color: var(--exploreafrica-color) !important;
+}
+/*footer ends here #####################*/
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .fixed {
@@ -257,12 +308,14 @@ nav.navbar.navbar-expand-lg.navbottom {
     background-size: cover;
     background-origin: content-box;
     background-position-y: top;
+    background-position-x: center;
 }
 .image-col2{
     background: url("https://i.imgur.com/51QOQMX.png") no-repeat;
     background-size: cover;
     background-origin: content-box;
     background-position-y: top;
+    background-position-x: 200px;
 }
 .big-heading {
     font-size: var(--caption);
@@ -299,6 +352,10 @@ nav.navbar.navbar-expand-lg.navbottom {
 .crop-img{
     object-fit: cover;
     height: 137px;
+}
+.card-title{
+    font-size: var(--nav-font-size);
+    font-width: var(--nav-font-weight);
 }
 .card-text.pt-2 {
     position: absolute;
@@ -366,7 +423,10 @@ span.small {
     white-space: normal !important;
     overflow: visible !important;
 }
-
+.form-control:focus {
+    border: solid 1px var(--exploreafrica-color);
+    box-shadow: none;
+}
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -417,7 +477,7 @@ span.small {
     }
     .big-heading{
         font-size: 30px;
-        line-height: 0.9;
+        /*line-height: 0.9;*/
     }
     .medium-heading{
         font-size: 14px;
@@ -446,8 +506,17 @@ span.small {
     .big-heading br {
         display: none;
     }
+    .section-3{
+        padding: 30px 0;
+    }
     .section-5{
         padding:20px;
+    }
+    .section-4{
+        padding: 0;
+    }
+    .section-5 .row {
+        height: 120px;
     }
 }
 

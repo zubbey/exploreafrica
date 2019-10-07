@@ -1,3 +1,75 @@
+<!-- start footer Area -->
+<footer class="footer-area pt-4 pb-4">
+    <div class="container">
+        <div class="row footer-row">
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h4>Up Coming Campaign</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="footer-list"><a href="#">Back to School Support project.</a></li>
+                        <li class="footer-list"><a href="#">90 Day free ICT Training for Niger Delta Youths.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h4>Contributors</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="footer-list"><a href="#">Somadina Adinma</a></li>
+                        <li class="footer-list"><a href="#">Miss Ezinnie Elizabath Umeh</a></li>
+                        <li class="footer-list"><a href="#">Mrs Joyce Ernest</a></li>
+                        <li class="footer-list"><a href="#">Sunes Godwin</a></li>
+                        <li class="footer-list"><a href="#">Abiri Faith Bogobanyu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h4>Acheivement</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="footer-list"><a href="#">Expore Africa Magazine</a></li>
+                        <li class="footer-list"><a href="#">Documentary</a></li>
+                        <li class="footer-list"><a href="#">Our Community</a></li>
+                        <li class="footer-list"><a href="about.php">Testimonies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h4>Newsletter</h4>
+                    <p>Stay update with our latest Campaign</p>
+                    <div class="" id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="email" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <span class="lnr lnr-arrow-right"></span>
+                                    </button>
+                                </div>
+                                <div class="info"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider pt-md-4"></div>
+        <div class="footer-bottom row pt-4 pb-4">
+            <p class="footer-text m-0 col-lg-6 col-md-12">
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<a href="exploreafricafoundation.org"> Explore Africa Foundation </a>Non-Profit Organization. <i class="fa fa-heart-o" aria-hidden="true"></i>  Developed by <a href="https://coloredigital.com" target="_blank">ColoreDigit inc</a> &amp; distributed by <a href="http://www.ibrandafrica.one" target="_blank">iBrand Africa</a></p>
+            <div class="col-lg-6 col-sm-12 footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End footer Area -->
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
