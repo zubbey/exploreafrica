@@ -30,7 +30,7 @@
         cursor: pointer;
         background: #6c6e8c;
     }
-    #pay_btn:hover,#pay_btn:focus,#pay_btn:active,{border: none; background: #666e8d;}
+    #pay_btn:hover,#pay_btn:focus,#pay_btn:active{border: none; background: #666e8d;}
     .row_pay{
         display: flex;
         flex-wrap: wrap;
@@ -54,7 +54,7 @@
 .auto .col{
 	margin:1% 0px;
 }
-.auto .full-w-b{background: gainsboro;width: 100%;}
+.auto .full-w-b{background: var(--section-bg-color);width: 100%;}
 .auto .line1{border-right: 1px solid #ddd;height: auto;}.line2{border-right: 1px solid #b9b9b9;height: auto;}
 .line-break{text-align: center; margin:10px auto 0px auto; width: 100%;}
 
@@ -125,5 +125,9 @@ input [type="checkbox"]{border: solid 5px #000;}
 	background-color: #28a745;color: #28a745;border: none;
 }
 
- #info{margin:20px 0;}
+#info{margin:20px 0;}
+.loading{
+    object-fit: cover;
+    height: 50px;
+}
 

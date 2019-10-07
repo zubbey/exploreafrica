@@ -74,6 +74,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="donate/app.js"></script>
 
 <script>
     $(document).ready(function (){
@@ -263,5 +264,75 @@
     });
 
 </script>
+
+<script>
+    $(document).ready(function() {
+        // 	var input1 = $('#amount_d');
+
+        // 	$('#btn1').on('click', function() {
+        // 		var div01 = $('#btn1').value ='25';
+        //
+        // 		console.log(div01);
+        // 	});
+        // 	$('#btn2').on('click', function() {
+        // 		var div02 = $('#btn2').value ='4000';
+        // 		console.log(div02);
+        // 	});
+        // 	$('#btn3').on('click', function() {
+        // 		var div03 = $('#btn3').value ='10000';
+        // 		console.log(div03);
+        // 	});
+        // 	$('#btn4').on('click', function() {
+        // 		var div04 = $('#btn4').value ='30000';
+        // 		console.log(div04);
+        // 	});
+        // 	$('#btn5').on('click', function() {
+        // 		var div05 = $('#btn5').value ='50000';
+        // 		console.log(div05);
+        // 	});
+
+        $('#modal').on('click', function(){
+            $(this).fadeOut('500');
+        });
+    });
+
+    function paystack(){
+        // alert("function call after submition");
+        payWithPaystack();
+        return false;
+    }
+
+    function payWithPaystack(){
+        var handler = PaystackPop.setup({
+            key: 'pk_live_bbbe431c147094b3ef0a4cbd5721831bd4850bc1',
+            email: '<?php echo $emailAddress;?>',
+            amount: <?php echo $S_amount;?> * 100,
+            currency: 'USD',
+            ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+            metadata: {
+                custom_fields: [
+                    {
+                        display_name: "Mobile Number",
+                        variable_name: "mobile_number",
+                        value: "+2348012345678"
+                    }
+                ]
+            },
+            callback: function(response){
+                alert('success. transaction ref is ' + response.reference);
+            },
+            onClose: function(){
+                // alert('window closed');
+            }
+        });
+        handler.openIframe();
+    }
+
+    $("button[type='submit']").click(function () {
+        $('.loading').removeClass('d-none');
+        // alert('button clicked!');
+    })
+</script>
+
 </body>
 </html>

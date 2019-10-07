@@ -43,6 +43,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./donate/donate.css">
+    <link rel="stylesheet" type="text/css" href="./donate/payment.css">
+
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="./donate/main.js"></script>
     <!--    <link rel="stylesheet" href="./css/main.css">-->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./css/custom.css">
@@ -69,7 +74,7 @@
                     <a class="nav-link top-link" href="#">Log in</a>
                 </li>
             </ul>
-            <button class="btn default-big-button" type="button"><a class="big-button-link" href="../donate.php">Donate
+            <button class="btn default-big-button" type="button"><a class="big-button-link" href="./donate.php">Donate
                     Now <i
                             class="fa fa-heart"></i></a></button>
         </div>
@@ -89,7 +94,7 @@
                 <a class="nav-link" href="#">Our Work</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./about.php">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Join Us</a>
@@ -100,7 +105,7 @@
             <span><i class="fa fa-bars"></i></span>
         </button>
         <span class=" collapse navbar-collapse navbar-text" id="donatebtn2">
-            <button class="btn default-button d-none" id="donatebtn" type="button"><a class="big-button-link" href="../donate.php">Donate
+            <button class="btn default-button d-none" id="donatebtn" type="button"><a class="big-button-link" href="./donate.php">Donate
                 Now <i
                       class="fa fa-heart"></i></a></button>
     </span>
