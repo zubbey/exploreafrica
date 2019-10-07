@@ -225,7 +225,7 @@
                     <p>I have had my own fair share of the struggle. And i do recognize the awesome role that adversity plays in the life of a person.</p>
                     <footer class="blockquote-footer text-white">
                         <small>
-                            West Africa Region Rep. <cite title="Source Title">Mrs Joyce Ernest</cite>
+                            President (West Africa Region)<cite title="Source Title">Mrs Joyce Ernest</cite>
                         </small>
                     </footer>
                 </blockquote>

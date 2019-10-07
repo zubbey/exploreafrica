@@ -332,6 +332,10 @@
         $('.loading').removeClass('d-none');
         // alert('button clicked!');
     })
+
+    $('#blogCarousel').carousel({
+        interval: 5000
+    });
 </script>
 
 </body>

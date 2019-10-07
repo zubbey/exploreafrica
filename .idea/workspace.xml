@@ -5,13 +5,10 @@
       <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/img/Tryit Editor v3.6.webarchive" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/donate.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/donate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/donate/donate.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/donate/donate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/validate.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +75,7 @@
       <updated>1570152350146</updated>
       <workItem from="1570152351933" duration="54190000" />
       <workItem from="1570274632860" duration="53406000" />
-      <workItem from="1570434128436" duration="10713000" />
+      <workItem from="1570434128436" duration="22048000" />
     </task>
     <servers />
   </component>

@@ -78,7 +78,15 @@ img{
     margin: 0;
     background-color: var(--section-bg-color);
 }
+.section-6{
+    max-width: 100%;
+    margin: 0;
+    background-color: var(--section-bg-color);
+}
 a {
+    color: var(--default-color-b);
+}
+p{
     color: var(--default-color-b);
 }
 ul {
@@ -436,8 +444,40 @@ span.small {
     border: solid 1px var(--exploreafrica-color);
     box-shadow: none;
 }
+.profile{
+    width: 25%;
+}
+.testimonial_subtitle{
+    color: var(--default-color-b);
+    font-size: var(--font);
+}
+
+.seprator {
+    height: 2px;
+    width: 56px;
+    background-color: #0aaa7a;
+    margin: 7px 0 10px 0;
+}
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: var(--active);
+}
 /*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Device = Most of the Smartphones Mobiles (Portrait) ####################################################
   ##Screen = B/w 320px to 479px
 */
 

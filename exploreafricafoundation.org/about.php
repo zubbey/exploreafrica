@@ -15,9 +15,7 @@ include('component/menu.php');
             </div>
         </div>
     </section>
-    <!-- End banner Area -->
 
-    <!--    <!-- Start feature Area -->-->
     <!--    <section class="feature-area">-->
     <!--        <div class="container">-->
     <!--            <div class="row">-->
@@ -70,9 +68,7 @@ include('component/menu.php');
     <!--            </div>-->
     <!--        </div>-->
     <!--    </section>-->
-    <!--    <!-- End feature Area -->-->
-    <!---->
-    <!--    <!-- Start info Area -->-->
+
     <!--    <section class="info-area pb-120">-->
     <!--        <div class="container-fluid">-->
     <!--            <div class="row align-items-center">-->
@@ -101,9 +97,7 @@ include('component/menu.php');
     <!--            </div>-->
     <!--        </div>-->
     <!--    </section>-->
-    <!--    <!-- End info Area -->-->
-    <!---->
-    <!--    <!-- Start course-mission Area -->-->
+
     <!--    <section class="course-mission-area pb-120">-->
     <!--        <div class="container">-->
     <!--            <div class="row d-flex justify-content-center">-->
@@ -116,8 +110,7 @@ include('component/menu.php');
     <!--            </div>-->
     <!--            <div class="row">-->
     <!--                <div class="col-md-6 accordion-left">-->
-    <!---->
-    <!--                    <!-- accordion 2 start-->-->
+
     <!--                    <dl class="accordion">-->
     <!--                        <dt>-->
     <!--                            <a href="">Vision Statement</a>-->
@@ -156,7 +149,7 @@ include('component/menu.php');
     <!---->
     <!--                        </dd>-->
     <!--                    </dl>-->
-    <!--                    <!-- accordion 2 end-->-->
+
     <!--                </div>-->
     <!--                <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">-->
     <!--                    <div class="overlay overlay-bg"></div>-->
@@ -166,10 +159,7 @@ include('component/menu.php');
     <!--            </div>-->
     <!--        </div>-->
     <!--    </section>-->
-    <!--    <!-- End course-mission Area -->-->
-    <!---->
-    <!---->
-    <!--    <!-- Start search-course Area -->-->
+
     <!--    <section class="search-course-area relative">-->
     <!--        <div class="overlay overlay-bg"></div>-->
     <!--        <div class="container">-->
@@ -196,11 +186,11 @@ include('component/menu.php');
     <!--                        <div class="col single-detials">-->
     <!--                            <span class="lnr lnr-license"></span>-->
     <!--                            <a href="#"><h4>Certification</h4></a>-->
-    <!--                            <p>-->
-    <!--                                EAF structures organizational departmentation to tackle core areas of performance and-->
-    <!--                                each of them handled by well certified and professional managers whose work is to-->
-    <!--                                influence his or her department in the direction of success.-->
-    <!--                            </p>-->
+<!--                                <p>-->
+<!--                                    EAF structures organizational departmentation to tackle core areas of performance and-->
+<!--                                    each of them handled by well certified and professional managers whose work is to-->
+<!--                                    influence his or her department in the direction of success.-->
+<!--                                </p>-->
     <!--                        </div>-->
     <!--                    </div>-->
     <!--                </div>-->
@@ -241,61 +231,366 @@ include('component/menu.php');
     <!--            </div>-->
     <!--        </div>-->
     <!--    </section>-->
-    <!--    <!-- End search-course Area -->-->
-<!--    <div class="card mb-3" style="max-width: 540px;">-->
-<!--        <div class="row no-gutters">-->
-<!--            <div class="col-md-3">-->
-<!--                <img src="" class="card-img" alt="...">-->
-<!--            </div>-->
-<!--            <div class="col-md-8">-->
-<!--                <div class="card-body">-->
-<!--                    <h5 class="card-title">Ekemini Idio</h5>-->
-<!--                    <p class="card-text no-wrap">Explore Africa Foundation has redirected my mind and-->
-<!--                        has helped-->
-<!--                        to realize my true potential in Human Reletion & Development, now i have set up-->
-<!--                        a Peace Club in my secondary school. Since I am the Senior Prefect of the-->
-<!--                        school, I will use my influence to attract members into the Peace Club to reach-->
-<!--                        out to youths like myself to create awareness in social vices, Drug-->
-<!--                        Abuse etc.</p>-->
-<!--                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    <!-- Start review Area -->
-<section class="review-area section-gap relative">
-    <div class="overlay overlay-bg" style="background:white;">
-        <div class="title text-center">
-            <h1 class="mb-10">Testimonies</h1>
-            <p>It is our believe that our campaign will help to drastically reduce the dangerous upsurge of cultism,
-                pipeline vandalism, militancy, drug abuse and all other related social vices. </p>
-        </div>
-    </div>
-</section>
-<div class="container">
-    <div class="carousel" data-flickity='{ "wrapAround": true, "autoplay": 5000 }'>
-        <div class="carousel-cell">
-            <div class="card p-5">
+
+    <!--    <div class="card mb-3" style="max-width: 540px;">-->
+    <!--        <div class="row no-gutters">-->
+    <!--            <div class="col-md-3">-->
+    <!--                <img src="" class="card-img" alt="...">-->
+    <!--            </div>-->
+    <!--            <div class="col-md-8">-->
+    <!--                <div class="card-body">-->
+    <!--                    <h5 class="card-title text-center">Ekemini Idio</h5>-->
+    <!--                    <p class="card-text no-wrap">Explore Africa Foundation has redirected my mind and-->
+    <!--                        has helped-->
+    <!--                        to realize my true potential in Human Reletion & Development, now i have set up-->
+    <!--                        a Peace Club in my secondary school. Since I am the Senior Prefect of the-->
+    <!--                        school, I will use my influence to attract members into the Peace Club to reach-->
+    <!--                        out to youths like myself to create awareness in social vices, Drug-->
+    <!--                        Abuse etc.</p>-->
+    <!--                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <section>
+        <div class="aboutus-area">
+            <div class="container">
                 <div class="row">
                     <div class="col">
-                        <img src="" class="card-img" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Ekemini Idio</h5>
-                        <p class="card-text no-wrap">
-                            Explore Africa Foundation has redirected my mind and has helped to realize my true potential in Human Reletion & Development, now i have set up a Peace Club in my secondary school. Since I am the Senior Prefect of the school, I will use my influence to attract members into the Peace Club to reach out to youths like myself to create awareness in social vices, Drug Abuse etc.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="col-md-4">
+                            <div class="aboutus-image float-left hidden-sm"><img src="https://i.imgur.com/KM21J0Q.jpg"
+                                                                                 alt=""></div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="aboutus-content ">
+                                <h1>Explore Africa <span>Foundation</span></h1>
+                                <h4>A Non Governmental Organization</h4>
+                                <p>Explore Africa Foundation is an African content focused organization involved in
+                                    creating resource development and capacity building solutions across gender-lines
+                                    through utilization of multi-racial and multi-dimensional change management
+                                    techniques and social transformation advocacy.
+                                </p>
+                                <p>Our day to day operations are manned by competent personnel who interpret management
+                                    decision into result oriented actions.
+                                </p>
+                                <p>
+                                    EAF structures organizational departmentation to tackle core areas of performance and
+                                    each of them handled by well certified and professional managers whose work is to
+                                    influence his or her department in the direction of success.
+                                </p>
+
+                                <div class="counter ">
+
+                                    <div class="single-counter text-center">
+                                        <h2 class="counter">Over 17,689</h2>
+                                        <p>Beneficiary</p>
+                                    </div>
+
+                                    <div class="single-counter text-center">
+                                        <h2 class="counter">Over 3,000</h2>
+                                        <p>Communities</p>
+                                    </div>
+
+                                    <div class="single-counter text-center">
+                                        <h2 class="counter">Over 200</h2>
+                                        <p>Members</p>
+                                    </div>
+
+                                    <div class="single-counter text-center">
+                                        <h2 class="counter">5</h2>
+                                        <p>Partners</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-    </div>
-</div>
+    </section>
+    <section class="review-area section-gap relative">
+        <div class="overlay overlay-bg" style="background:white;">
+            <div class="title text-center">
+                <h1 class="mb-20">Testimonies</h1>
+                <p class="mt-10">It is our believe that our campaign will help to drastically reduce the dangerous upsurge of cultism,
+                    pipeline vandalism, militancy, drug abuse and all other related social vices. </p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row blog mb-5 mt-5">
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
 
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/yElmDUz.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ekemini Idio</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                Explore Africa Foundation has redirected my mind and has helped to
+                                                realize my true potential in Human Reletion & Development, now i have
+                                                set up a Peace Club in my secondary school.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/PvjZlY8.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Uzah Harrison</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                My children have benefitted from the free exercise books distribution of
+                                                Explore Africa Foundation. Thanks to Explore Africa Foundation.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/visJvmM.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Anita ibeawuchi John</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                My joy knew no bound when I was selected for the summer boot camp
+                                                experience at Tinapa, Calabar. It was an experience of a life time.
+                                                Thanks to Explore Africa Foundation.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/XGNAAF0.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Queen Abang</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                I am grateful to EAF for being so kind to sponsor my Fashion
+                                                Apprenticeship Program. Today I can say I am a designer.</p>
+                                            <p class="card-text featured"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/jFnghfm.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Henry Ndubuisi Dennis</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                My gratitude knows no bounds, i am now a professional website/App
+                                                developer. Thanks to Explore Africa Foundation</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/yElmDUz.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ajie Maureen</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                The Science & Art of living has changed my entire perspective about life
+                                                through the principles taught in the book and the mind-wealth study
+                                                group program. Thanks to Explore Africa Foundation for donating the
+                                                books to us..</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/yElmDUz.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ekemini Idio</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                The youth summer boot camp was indeed a great experience for me. if it
+                                                were possible i would go back in-time and relive the whole
+                                                experience.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/yElmDUz.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ekemini Idio</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                Explore Africa Foundation has redirected my mind and has helped to
+                                                realize my true potential in Human Reletion & Development, now i have
+                                                set up a Peace Club in my secondary school.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/jFnghfm.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Henry Ndubuisi Dennis</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                My gratitude knows no bounds, i am now a professional website/App
+                                                developer. Thanks to Explore Africa Foundation</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/BhsMO3p.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ajie Maureen</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                The Science & Art of living has changed my entire perspective about life
+                                                through the principles taught in the book and the mind-wealth study
+                                                group program. Thanks to Explore Africa Foundation for donating the
+                                                books to us..</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/yElmDUz.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ekemini Idio</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                The youth summer boot camp was indeed a great experience for me. if it
+                                                were possible i would go back in-time and relive the whole
+                                                experience.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="img text-center">
+                                            <img src="https://i.imgur.com/rSLfZGo.png" class="card-img profile p-2"
+                                                 alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Justice Udor</h5>
+                                            <div class="divider"></div>
+                                            <i class="fa fa-quote-left testimonial_fa pt-md-3"
+                                               aria-hidden="true"></i>
+                                            <p class="testimonial_para pt-md-4">
+                                                Explore Africa Foundation has redirected my mind and has helped to
+                                                realize my true potential in Human Reletion & Development, now i have
+                                                set up a Peace Club in my secondary school.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+
+                    </div>
+                    <!--.carousel-inner-->
+                </div>
+                <!--.Carousel-->
+
+            </div>
+        </div>
+    </div>
 
 <?php
 include('component/footer.php');
