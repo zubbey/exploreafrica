@@ -73,6 +73,11 @@ img{
 .section-5 .row {
     height: 250px;
 }
+.section-5-5{
+    max-width: 100%;
+    margin: 0;
+    background-color: var(--section-bg-color);
+}
 a {
     color: var(--default-color-b);
 }
@@ -317,6 +322,7 @@ footer .divider {
     background-position-y: top;
     background-position-x: 200px;
 }
+
 .big-heading {
     font-size: var(--caption);
     font-family: var(--font);
@@ -328,7 +334,7 @@ footer .divider {
 .medium-heading {
     font-size: var(--nav-font-size);
     font-family: var(--font);
-    font-weight: var(--nav-font-weight);
+    /*font-weight: var(--nav-font-weight);*/
     color: var(--default-color-b);
 }
 

@@ -174,6 +174,11 @@
         </div>
     </div>
 </div>
+<div class="section-5-5">
+    <div class="container pt-md-4">
+        <img class="img-fluid" src="https://i.imgur.com/mg9JjdT.jpg">
+    </div>
+</div>
 <div class="section-5">
     <div class="container">
         <div class="row">
@@ -246,5 +251,10 @@
                 </blockquote>
             </div>
         </div>
+    </div>
+</div>
+<div class="section-5-5">
+    <div class="container pt-md-4 pb-md-4">
+        <img class="img-fluid" src="https://i.imgur.com/vD1utm3.jpg">
     </div>
 </div>
