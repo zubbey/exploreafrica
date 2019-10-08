@@ -313,7 +313,7 @@ include('component/menu.php');
 
     <div class="section-6">
         <div class="container pt-4 pb-4">
-            <h1 class="heading text-center">Meet Our Term</h1>
+            <h1 class="heading text-center">Meet Our Team</h1>
             <div class="card-columns">
                 <div class="card">
                     <img src="https://i.imgur.com/YZUF1jP.jpg" class="card-img-top" alt="Nigeria Queen">
@@ -377,7 +377,7 @@ include('component/menu.php');
     <section class="review-area section-gap relative">
         <div class="overlay overlay-bg" style="background:white;">
             <div class="title text-center">
-                <h1 class="heading text-center">Meet Our Term</h1>
+                <h1 class="heading text-center">Testimonies</h1>
                 <p class="mt-10">It is our believe that our campaign will help to drastically reduce the dangerous upsurge of cultism,
                     pipeline vandalism, militancy, drug abuse and all other related social vices. </p>
             </div>
