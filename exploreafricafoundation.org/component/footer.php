@@ -263,6 +263,57 @@
 
     });
 
+    var l = window.location.href;
+    var home = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/index.php';
+    var work = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/work.php';
+    var about = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/about.php';
+    var login = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/login.php';
+    // var currentNav = document.getElementsByClassName("nav-item");
+    // var active = document.getElementsByClassName("active");
+    // currentNav.Classlist[2];
+    //     if (l === about){
+    //         currentNav.;
+    //     }
+    let nav1 = document.querySelector('#nav1');
+    let nav2 = document.querySelector('#nav2');
+    let nav3 = document.querySelector('#nav3');
+    let nav4 = document.querySelector('#nav4');
+    if (l === home) {
+        nav1.classList.add('active');
+        nav2.classList.remove('active');
+        nav3.classList.remove('active');
+        nav4.classList.remove('active');
+    } else if (l === work){
+        nav2.classList.add('active');
+        nav1.classList.remove('active');
+        nav3.classList.remove('active');
+        nav4.classList.remove('active');
+    } else if (l === about){
+        nav3.classList.add('active');
+        nav1.classList.remove('active');
+        nav2.classList.remove('active');
+        nav4.classList.remove('active');
+    } else if (l === login){
+        nav4.classList.add('active');
+        nav1.classList.remove('active');
+        nav2.classList.remove('active');
+        nav3.classList.remove('active');
+    } else{
+        nav1.classList.remove('active');
+        nav2.classList.remove('active');
+        nav3.classList.remove('active');
+        nav4.classList.remove('active');
+    }
+
+    function addActive2() {
+        $('.signup').addClass('active');
+        $('.login').removeClass('active');
+    }
+    function addActive1() {
+        $('.signup').removeClass('active');
+        $('.login').addClass('active');
+    }
+
 </script>
 
 <script>
@@ -336,6 +387,7 @@
     $('#blogCarousel').carousel({
         interval: 5000
     });
+
 </script>
 
 </body>

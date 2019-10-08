@@ -193,6 +193,7 @@
 </div>
 <div class="section-6">
     <div class="container pt-4 pb-4">
+        <h1 class="heading">Meet our Term</h1>
         <div class="card-columns">
             <div class="card">
                 <img src="https://i.imgur.com/YZUF1jP.jpg" class="card-img-top" alt="Nigeria Queen">

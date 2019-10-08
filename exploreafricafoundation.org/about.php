@@ -259,11 +259,11 @@ include('component/menu.php');
                     <div class="col">
                         <div class="col-md-4">
                             <div class="aboutus-image float-left hidden-sm"><img src="https://i.imgur.com/KM21J0Q.jpg"
-                                                                                 alt=""></div>
+                                                                                 alt="Explore Africa Photograph"></div>
                         </div>
                         <div class="col-md-8">
                             <div class="aboutus-content ">
-                                <h1>Explore Africa <span>Foundation</span></h1>
+                                <h1 id="h1">Explore Africa <span>Foundation</span></h1>
                                 <h4>A Non Governmental Organization</h4>
                                 <p>Explore Africa Foundation is an African content focused organization involved in
                                     creating resource development and capacity building solutions across gender-lines
@@ -310,10 +310,74 @@ include('component/menu.php');
             </div>
         </div>
     </section>
+
+    <div class="section-6">
+        <div class="container pt-4 pb-4">
+            <h1 class="heading text-center">Meet Our Term</h1>
+            <div class="card-columns">
+                <div class="card">
+                    <img src="https://i.imgur.com/YZUF1jP.jpg" class="card-img-top" alt="Nigeria Queen">
+                    <div class="card-body">
+                        <h5 class="card-title">Miss Ezinne Elizabath Umeh</h5>
+                        <p class="card-text">Ambassador, Explore Africa Foundation.</p>
+                        <div class="footer-social-icons">
+                            <ul class="social-icons">
+                                <li><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                            <div class="small">
+                                <p class="card-text"><small class="text-muted">Last updated 3 Month ago</small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.imgur.com/Jst3dzM.jpg" class="card-img-top" alt="Mrs Ernest">
+                    <div class="card-body">
+                        <h5 class="card-title">Mrs Joyce Ernest</h5>
+                        <p class="card-text">President (West Africa Region) Explore Africa Foundation.</p>
+                        <div class="footer-social-icons">
+                            <ul class="social-icons">
+                                <li><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                            <div class="small">
+                                <p class="card-text"><small class="text-muted">Last updated 2 year ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.imgur.com/nQVeYR7.jpg" class="card-img-top" alt="Somadina Adinma">
+                    <div class="card-body">
+                        <h5 class="card-title">Somadina Adinma</h5>
+                        <p class="card-text">Ambassador, Explore Africa Foundation.</p>
+                        <div class="footer-social-icons">
+                            <ul class="social-icons">
+                                <li><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                            <div class="small">
+                                <p class="card-text"><small class="text-muted">Last updated 8 Month ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <section class="review-area section-gap relative">
         <div class="overlay overlay-bg" style="background:white;">
             <div class="title text-center">
-                <h1 class="mb-20">Testimonies</h1>
+                <h1 class="heading text-center">Meet Our Term</h1>
                 <p class="mt-10">It is our believe that our campaign will help to drastically reduce the dangerous upsurge of cultism,
                     pipeline vandalism, militancy, drug abuse and all other related social vices. </p>
             </div>

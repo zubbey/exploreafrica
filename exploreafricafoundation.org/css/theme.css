@@ -359,6 +359,7 @@ footer .divider {
     font-weight: var(--nav-font-weight);
     color: var(--default-color-b);
 }
+.space{width: 100%; height: 20px;}
 .card-text{
     font: var(--default-font);
     color: var(--default-color-b);
@@ -476,6 +477,71 @@ span.small {
 .blog .carousel-indicators .active {
     background: var(--active);
 }
+.footer-social-icons {
+    /* width: 350px; */
+    margin: 0 auto;
+    justify-content: space-evenly;
+    display: inline-flex;
+    align-items: baseline;
+}
+.social-icon {
+    color: var(--default-color-w);
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: var(--default-color-b);
+    background-color: var(--default-color-w);
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+    color: var(--default-color-w);
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: var(--default-color-b);
+    background-color: var(--default-color-w);
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+    color: var(--default-color-w);
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: var(--default-color-b);
+    background-color: var(--default-color-w);
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+    color: var(--default-color-w);
+}
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait) ####################################################
   ##Screen = B/w 320px to 479px
@@ -523,6 +589,9 @@ span.small {
     }
     .mb-3, .my-3{
         margin: 0 !important;
+    }
+    .w-50{
+        width: 100% !important;
     }
     .big-heading{
         font-size: 30px;

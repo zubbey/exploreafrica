@@ -56,7 +56,7 @@
 <body class="body">
 <div class="container section-1">
     <nav class="navbar navbar-expand-lg navtop">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.php">
             <img src="./img/EAF_icon.png" width="30" height="30" class="d-inline-block align-top"
                  alt="explore africa logo">
             Explore Africa <span>Foundation</span>
@@ -71,7 +71,7 @@
                     <a class="nav-link top-link" href="#">info@exploreafricafoundation.org</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link top-link" href="#">Log in</a>
+                    <a class="nav-link top-link" href="./login.php">Log in</a>
                 </li>
             </ul>
             <button class="btn default-big-button" type="button"><a class="big-button-link" href="./donate.php">Donate
@@ -87,17 +87,17 @@
     <nav class="navbar navbar-expand-lg navbottom">
 
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Latest <span class="sr-only">(current)</span></a>
+            <li id="nav1" class="nav-item ">
+                <a class="nav-link" href="./index.php">Latest <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Our Work</a>
+            <li id="nav2" class="nav-item">
+                <a class="nav-link" href="./work.php">Our Work</a>
             </li>
-            <li class="nav-item">
+            <li id="nav3" class="nav-item">
                 <a class="nav-link" href="./about.php">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Join Us</a>
+            <li id="nav4" class="nav-item">
+                <a class="nav-link" href="./login.php">Join Us</a>
             </li>
         </ul>
         <button class="navbar-toggler 2 d-none" type="button" data-toggle="collapse" data-target="#donatebtn2"
