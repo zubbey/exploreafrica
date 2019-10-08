@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04219856-1c18-458e-a92a-dd58c8b23afa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/git" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/img/Tryit Editor v3.6.webarchive" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exploreafricafoundation.org/work.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/activity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/component/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/exploreafricafoundation.org/css/theme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RiaQ6zfMgnWSMWimrwhuwKZuMo" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -76,7 +73,7 @@
       <updated>1570152350146</updated>
       <workItem from="1570152351933" duration="54190000" />
       <workItem from="1570274632860" duration="53406000" />
-      <workItem from="1570434128436" duration="34523000" />
+      <workItem from="1570434128436" duration="35580000" />
     </task>
     <servers />
   </component>
