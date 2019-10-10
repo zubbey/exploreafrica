@@ -1,5 +1,11 @@
 <?php
 
+// baf2f924754a01
+//
+// d83411ef
+//
+// us-cdbr-iron-east-05.cleardb.net
+
 
 $message = '';
 $display_pay = 'hidden_pay';
@@ -68,10 +74,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 				}
 			  // ..........form vaildation ends...........................
 				if ($firstnameErr == '' and $lastnameErr == '' and $stateErr == '' and $postalErr == '' and $emailAddressErr == '') {
-					$servername = "localhost";
-					$username = "root";
-					$password = "";
-					$dbname = "exploreafricafoundation";
+					$servername = "us-cdbr-iron-east-05.cleardb.net";
+					$username = "baf2f924754a01";
+					$password = "d83411ef";
+					$dbname = "heroku_c32037d42c2d401";
 
 						// Create connection
 					$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -107,10 +113,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 							$email = $emailAddress;
 		    	// ..........form vaildation ends...........................
 							if ($firstnameErr == '' and $lastnameErr == '' and $stateErr == '' and $postalErr == '' and $emailAddressErr == '') {
-								$servername = "localhost";
-								$username = "root";
-								$password = "";
-								$dbname = "exploreafricafoundation";
+                                $servername = "us-cdbr-iron-east-05.cleardb.net";
+                                $username = "baf2f924754a01";
+                                $password = "d83411ef";
+                                $dbname = "heroku_c32037d42c2d401";
 
 							// Create connection
 								$conn = mysqli_connect($servername, $username, $password, $dbname);
