@@ -74,10 +74,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 				}
 			  // ..........form vaildation ends...........................
 				if ($firstnameErr == '' and $lastnameErr == '' and $stateErr == '' and $postalErr == '' and $emailAddressErr == '') {
-					$servername = "us-cdbr-iron-east-05.cleardb.net";
-					$username = "baf2f924754a01";
-					$password = "d83411ef";
-					$dbname = "heroku_c32037d42c2d401";
+
+				    require_once ('./component/db.php'); //initializing Database
 
 						// Create connection
 					$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -113,10 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 							$email = $emailAddress;
 		    	// ..........form vaildation ends...........................
 							if ($firstnameErr == '' and $lastnameErr == '' and $stateErr == '' and $postalErr == '' and $emailAddressErr == '') {
-                                $servername = "us-cdbr-iron-east-05.cleardb.net";
-                                $username = "baf2f924754a01";
-                                $password = "d83411ef";
-                                $dbname = "heroku_c32037d42c2d401";
+                                require_once ('./component/db.php'); //initializing Database again
 
 							// Create connection
 								$conn = mysqli_connect($servername, $username, $password, $dbname);
