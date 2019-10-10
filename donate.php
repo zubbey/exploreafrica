@@ -6,12 +6,13 @@ include('component/menu.php');
 ?>
 
     <div id="modal" class="<?php echo $display_pay; ?>">
-        <div class="row_pay">
-            <div class="col_pay">
-                <div class="h4">Thank you for supporting</div>
-                <div class="p lead">please enter payment details</div>
+        <div class="container">
+            <div class="alert alert-info" role="alert">
+                <h4 class="alert-heading">Thank you for supporting!</h4>
+                <p>please enter payment details to complete your donation.</p>
+                <hr>
+                <input class="btn default-button" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button" value="Enter Card Details"/>
             </div>
-            <input onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button" value="CARD DETAILS"/>
         </div>
     </div>
 
