@@ -10,7 +10,7 @@
           content="Explore Africa Foundation is an African content focused organization involved in creating resource development and capacity building solutions across gender-lines through utilization of multi-racial and multi-dimensional change management techniques and social transformation advocacy.">
     <!-- Meta Keyword -->
     <meta name="keywords"
-          content="meta, metatags, meta tag, meta tags, submit, search engines, ngo, non-governmental organization, Non-Profit Organization, sites, submit site, search engine submit, website, submit website, add meta tags, find website, be found on internet, keywords, keyword,explore, explore africa, explore africa foundation, foundation, ColoreDigital, support, payment, donation, donate, help ">
+          content="Explore Africa Foundation, donation, foundation, bssp, Back to school support project, youth konnect for peace network, youth connect for peace network, ngo, non-governmental organization, Non-Profit Organization, sites, social vices, help fight against climate-change, 90 days free skills and acquisition programme, free skills and acquisition, leadership awards, coloredigit, find website, be found on internet, keywords, keyword,explore, explore africa, explore africa foundation, foundation, ColoreDigital, support, payment, donation, donate, help ">
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
@@ -87,7 +87,7 @@
     <nav class="navbar navbar-expand-lg navbottom">
 
         <ul class="navbar-nav">
-            <li id="nav1" class="nav-item ">
+            <li id="nav1" class="nav-item">
                 <a class="nav-link" href="./index.php">Latest <span class="sr-only">(current)</span></a>
             </li>
             <li id="nav2" class="nav-item">
@@ -100,7 +100,7 @@
                 <a class="nav-link" href="./login.php">Join Us</a>
             </li>
         </ul>
-        <button class="navbar-toggler 2 d-none" type="button" data-toggle="collapse" data-target="#donatebtn2"
+        <button class="navbar-toggler d-none" id="toggler-nav" type="button" data-toggle="collapse" data-target="#donatebtn2"
                 aria-controls="donatebtn2" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fa fa-bars"></i></span>
         </button>

@@ -95,12 +95,12 @@
             if ($(window).scrollTop() > $('.section-1').height()) {
                 $('.menu').addClass('fixed');
                 $('#donatebtn').removeClass('d-none');
-                $('.navbar-toggler.2').removeClass('d-none');
+                $('#toggler-nav').removeClass('d-none');
                 $('.section-1').checkEx();
             } else {
                 $('.menu').removeClass('fixed');
                 $('#donatebtn').addClass('d-none');
-                $('.navbar-toggler.2').addClass('d-none');
+                $('#toggler-nav').addClass('d-none');
                 $('.nav-link').removeClass('text-white');
             }
             if ($(window).scrollTop() > $('.bd-example').height()){
@@ -268,10 +268,10 @@
     });
 
     var l = window.location.href;
-    var home = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/index.php';
-    var work = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/work.php';
-    var about = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/about.php';
-    var login = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/login.php';
+    var home = 'http://www.exploreafricafoundation.org';
+    var work = 'http://www.exploreafricafoundation.org/work.php';
+    var about = 'http://www.exploreafricafoundation.org/about.php';
+    var login = 'http://www.exploreafricafoundation.org/login.php';
 
     let nav1 = document.querySelector('#nav1');
     let nav2 = document.querySelector('#nav2');

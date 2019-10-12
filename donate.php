@@ -7,12 +7,15 @@ include('component/menu.php');
 
     <div id="modal" class="<?php echo $display_pay; ?>">
         <div class="container">
-            <div class="alert alert-info" role="alert">
-                <h4 class="alert-heading">Thank you for supporting!</h4>
-                <p>please enter payment details to complete your donation.</p>
-                <hr>
-                <input class="btn default-button" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button" value="Enter Card Details"/>
+            <div class="text-center w-50">
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">Thank you for supporting!</h4>
+                    <p>please enter payment details to complete your donation.</p>
+                    <hr>
+                    <input class="btn default-button" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button" value="Enter Card Details"/>
+                </div>
             </div>
+
         </div>
     </div>
 
