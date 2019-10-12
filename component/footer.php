@@ -82,73 +82,78 @@
             $(this).toggleClass("icon-rotate");
         });
 
+        (function( $ ){
+            $.fn.checkEx = function () {
+                if ($('.bd-example')[0]){
+                    $('.nav-link').addClass('text-white');
+                }
+                return this;
+            };
+        })(jQuery);
+
         $(window).bind('scroll', function () {
             if ($(window).scrollTop() > $('.section-1').height()) {
                 $('.menu').addClass('fixed');
                 $('#donatebtn').removeClass('d-none');
                 $('.navbar-toggler.2').removeClass('d-none');
+                $('.section-1').checkEx();
             } else {
                 $('.menu').removeClass('fixed');
                 $('#donatebtn').addClass('d-none');
                 $('.navbar-toggler.2').addClass('d-none');
+                $('.nav-link').removeClass('text-white');
+            }
+            if ($(window).scrollTop() > $('.bd-example').height()){
+                $('.nav-link').addClass('text-dark');
+            } else {
+                $('.nav-link').removeClass('text-dark');
             }
         });
+
         $('#more1').click(function () {
             $('.card-text.1').toggleClass('show-more');
             $('.card-img-top.1').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more2').click(function () {
             $('.card-text.2').toggleClass('show-more');
             $('.card-img-top.2').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more3').click(function () {
             $('.card-text.3').toggleClass('show-more');
             $('.card-img-top.3').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more4').click(function () {
             $('.card-text.4').toggleClass('show-more');
             $('.card-img-top.4').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more5').click(function () {
             $('.card-text.5').toggleClass('show-more');
             $('.card-img-top.5').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more6').click(function () {
             $('.card-text.6').toggleClass('show-more');
             $('.card-img-top.6').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more7').click(function () {
             $('.card-text.7').toggleClass('show-more');
             $('.card-img-top.7').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more8').click(function () {
             $('.card-text.8').toggleClass('show-more');
             $('.card-img-top.8').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more9').click(function () {
             $('.card-text.9').toggleClass('show-more');
             $('.card-img-top.9').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more10').click(function () {
             $('.card-text.10').toggleClass('show-more');
             $('.card-img-top.10').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
         $('#more11').click(function () {
             $('.card-text.11').toggleClass('show-more');
             $('.card-img-top.11').toggleClass('crop-img');
-            // $(this).html('Read More..');
         });
-
     });
 
     function clickedReadmore1() {
@@ -158,7 +163,6 @@
         } else {
             a.innerHTML = "Show Less..";
         }
-
     }
     function clickedReadmore2() {
         var b = document.getElementById("more2");
@@ -268,12 +272,7 @@
     var work = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/work.php';
     var about = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/about.php';
     var login = 'http://localhost/~zubbey/exploreafrica/exploreafricafoundation.org/login.php';
-    // var currentNav = document.getElementsByClassName("nav-item");
-    // var active = document.getElementsByClassName("active");
-    // currentNav.Classlist[2];
-    //     if (l === about){
-    //         currentNav.;
-    //     }
+
     let nav1 = document.querySelector('#nav1');
     let nav2 = document.querySelector('#nav2');
     let nav3 = document.querySelector('#nav3');
@@ -318,29 +317,6 @@
 
 <script>
     $(document).ready(function() {
-        // 	var input1 = $('#amount_d');
-
-        // 	$('#btn1').on('click', function() {
-        // 		var div01 = $('#btn1').value ='25';
-        //
-        // 		console.log(div01);
-        // 	});
-        // 	$('#btn2').on('click', function() {
-        // 		var div02 = $('#btn2').value ='4000';
-        // 		console.log(div02);
-        // 	});
-        // 	$('#btn3').on('click', function() {
-        // 		var div03 = $('#btn3').value ='10000';
-        // 		console.log(div03);
-        // 	});
-        // 	$('#btn4').on('click', function() {
-        // 		var div04 = $('#btn4').value ='30000';
-        // 		console.log(div04);
-        // 	});
-        // 	$('#btn5').on('click', function() {
-        // 		var div05 = $('#btn5').value ='50000';
-        // 		console.log(div05);
-        // 	});
 
         $('#modal').on('click', function(){
             $(this).fadeOut('500');

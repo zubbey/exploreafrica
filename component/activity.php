@@ -223,7 +223,7 @@
             </div>
             <div class="card bg-primary text-white text-center p-3">
                 <blockquote class="blockquote mb-0 card-body">
-                    <p>I have had my own fair share of the struggle. And i do recognize the awesome role that adversity plays in the life of a person.</p>
+                    <p class="text-white">I have had my own fair share of the struggle. And i do recognize the awesome role that adversity plays in the life of a person.</p>
                     <footer class="blockquote-footer text-white">
                         <small>
                             President (West Africa Region)<cite title="Source Title">Mrs Joyce Ernest</cite>

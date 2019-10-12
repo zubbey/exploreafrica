@@ -3,22 +3,22 @@
 }
 .error{color:#f7631b;}
 *{transition: all 500ms ease;-webkit-transition: all 500ms ease;-ms-transition: all 500ms ease;-o-transition: all 500ms ease;}
-.header-top{background: white;} .header-top a{ color: black;}.header-top a:hover{color: #f7631b;}
-.banner-area .overlay-bg{background-color:rgba(4, 10, 32, 0.43) }.overlay-bg{background:rgba(28, 39, 82, 0.62);}
-.review-area .title {width: 50%; margin: auto; padding-top:20px; }
-.caption-text{width: 70%; margin-bottom: 20px;}
-#mega-menu{margin: 0 auto; text-align: center;}
-.nav-menu a{padding: 8px;}
-.nav-menu .mega-menu{background: #04091e; position: absolute; display: flex;}
-.nav-menu .mega-menu{-webkit-background: #04091e; position: absolute; display: flex;}
-.nav-menu .mega-menu .menu1,.menu2{display:block ; width: 80%; height: 100%;}
-.nav-menu .mega-menu li{ 
-	list-style: square;
-    padding: 2px;
-    text-align: start;
-    box-sizing: content-box;
-}
-.nav-menu .mega-menu li a{word-wrap: break-word; color: #fff;padding: 5px;}
+/*.header-top{background: white;} .header-top a{ color: black;}.header-top a:hover{color: #f7631b;}*/
+/*.banner-area .overlay-bg{background-color:rgba(4, 10, 32, 0.43) }.overlay-bg{background:rgba(28, 39, 82, 0.62);}*/
+/*.review-area .title {width: 50%; margin: auto; padding-top:20px; }*/
+/*.caption-text{width: 70%; margin-bottom: 20px;}*/
+/*#mega-menu{margin: 0 auto; text-align: center;}*/
+/*.nav-menu a{padding: 8px;}*/
+/*.nav-menu .mega-menu{background: #04091e; position: absolute; display: flex;}*/
+/*.nav-menu .mega-menu{-webkit-background: #04091e; position: absolute; display: flex;}*/
+/*.nav-menu .mega-menu .menu1,.menu2{display:block ; width: 80%; height: 100%;}*/
+/*.nav-menu .mega-menu li{ */
+/*	list-style: square;*/
+/*    padding: 2px;*/
+/*    text-align: start;*/
+/*    box-sizing: content-box;*/
+/*}*/
+/*.nav-menu .mega-menu li a{word-wrap: break-word; color: #fff;padding: 5px;}*/
 
 .btn-danger{background: #f7631b;} .btn-danger:hover{background: #fff; color: #f7631b;}
 .single-feature .desc-wrap{border: solid #ddd 0.5px;}
