@@ -87,7 +87,7 @@
     <nav class="navbar navbar-expand-lg navbottom">
 
         <ul class="navbar-nav">
-            <li id="nav1" class="nav-item">
+            <li id="nav1" class="nav-item active">
                 <a class="nav-link" href="./index.php">Latest <span class="sr-only">(current)</span></a>
             </li>
             <li id="nav2" class="nav-item">
