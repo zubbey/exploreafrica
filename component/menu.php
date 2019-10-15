@@ -56,7 +56,7 @@
 <body class="body">
 <div class="container section-1">
     <nav class="navbar navbar-expand-lg navtop">
-        <a class="navbar-brand" href="http://www.exploreafricafoundation.org">
+        <a class="navbar-brand" href="./index.php">
             <img src="./img/EAF_icon.png" width="30" height="30" class="d-inline-block align-top"
                  alt="explore africa logo">
             Explore Africa <span>Foundation</span>
@@ -87,8 +87,8 @@
     <nav class="navbar navbar-expand-lg navbottom">
 
         <ul class="navbar-nav">
-            <li id="nav1" class="nav-item">
-                <a class="nav-link" href="http://www.exploreafricafoundation.org">Latest <span class="sr-only">(current)</span></a>
+            <li id="nav1" class="nav-item active">
+                <a class="nav-link" href="./index.php">Latest <span class="sr-only">(current)</span></a>
             </li>
             <li id="nav2" class="nav-item">
                 <a class="nav-link" href="./work.php">Our Work</a>

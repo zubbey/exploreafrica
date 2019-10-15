@@ -268,7 +268,7 @@
     });
 
     var l = window.location.href;
-    var home = 'http://www.exploreafricafoundation.org';
+    var home = 'http://www.exploreafricafoundation.org/index.php';
     var work = 'http://www.exploreafricafoundation.org/work.php';
     var about = 'http://www.exploreafricafoundation.org/about.php';
     var login = 'http://www.exploreafricafoundation.org/login.php';
@@ -277,7 +277,7 @@
     let nav2 = document.querySelector('#nav2');
     let nav3 = document.querySelector('#nav3');
     let nav4 = document.querySelector('#nav4');
-    if (l === home || l === 'http://www.exploreafricafoundation.org/index.php') {
+    if (l === home || l === 'http://www.exploreafricafoundation.org/' || l === 'http://www.exploreafricafoundation.org') {
         nav1.classList.add('active');
         nav2.classList.remove('active');
         nav3.classList.remove('active');
