@@ -267,15 +267,8 @@
 
     });
 
-    function activeHome(x, y){
-	if(l === x || l === y){
-	return x;
-	return y;
-      }
-    }
-
     var l = window.location.href;
-    var home = activeHome('http://www.exploreafricafoundation.org', 'http://www.exploreafricafoundation.org/index.php');
+    var home = 'http://www.exploreafricafoundation.org/' || 'http://www.exploreafricafoundation.org/index.php';
     var work = 'http://www.exploreafricafoundation.org/work.php';
     var about = 'http://www.exploreafricafoundation.org/about.php';
     var login = 'http://www.exploreafricafoundation.org/login.php';
