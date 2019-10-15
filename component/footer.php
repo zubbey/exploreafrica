@@ -277,7 +277,7 @@
     let nav2 = document.querySelector('#nav2');
     let nav3 = document.querySelector('#nav3');
     let nav4 = document.querySelector('#nav4');
-    if (l === home) {
+    if (l === home || l === 'http://www.exploreafricafoundation.org/index.php') {
         nav1.classList.add('active');
         nav2.classList.remove('active');
         nav3.classList.remove('active');
