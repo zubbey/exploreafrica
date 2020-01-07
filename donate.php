@@ -7,14 +7,20 @@ include('component/menu.php');
 
     <div id="modal" class="<?php echo $display_pay; ?>">
         <div class="container">
-            <div class="text-center w-50">
+            <div class="row m-lg-5">
+                <div class="col-md-6 m-auto">
                 <div class="alert alert-info" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
                     <h4 class="alert-heading">Thank you for supporting!</h4>
+                      
                     <p>please enter payment details to complete your donation.</p>
                     <hr>
-                    <input class="btn default-button" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button" value="Enter Card Details"/>
+                    <button class="btn default-button" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button">Enter Card Details</button>
                 </div>
             </div>
+         </div>
 
         </div>
     </div>
@@ -45,33 +51,45 @@ include('component/menu.php');
         <div class="row">
             <div class="col-md-6 m-auto text-center">
                 <h3 class="h1">For Cheque Donation or transfer, use Foundation Account below:</h3>
-                <ul>
-                    <li class="lead bold"><span>Account Name:</span> Explore Africa Foundation</li>
-                    
-                    <li class="lead"><span>Currency:</span>NGN</li>
-
-                    <li class="lead"><span>Account Number:</span> 0269404198</li>
-                    
-                    <div class="divider"></div>
-                    
-                    <li class="lead"><span>Currency:</span>USD</li>
-
-                    <li class="lead"><span>Account Number:</span> 0269404253</li>
-                    
-                    <div class="divider"></div>
-                    
-                    <li class="lead"><span>Currency:</span>GBP</li>
-
-                    <li class="lead"><span>Account Number:</span> 0269403847</li>
-                    
-                    <div class="divider"></div>
-                    
-                    <li class="lead"><span>Currency:</span>EUR</li>
-
-                    <li class="lead"><span>Account Number:</span> 0269404260</li>
-
-                    <li class="lead bold"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
+                 <ul>
+                    <li class="lead bold"><span>Account Name:</span> <h3>Explore Africa Foundation</h3></li>
+                     <li class="lead bold"><span>Bank:</span> <h3>Guaranty Trust Bank (GTB)</h3></li>
                 </ul>
+                <div class="divider"></div>
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">0269404198</h5>
+                        <p class="card-text">NGN</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">0269404253</h5>
+                        <p class="card-text">USD</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">0269403847</h5>
+                        <p class="card-text">GBP</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">0269404260</h5>
+                        <p class="card-text">EUR</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>    
         <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
