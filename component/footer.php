@@ -346,13 +346,49 @@
                 ]
             },
             callback: function(response){
-                alert('success. transaction ref is ' + response.reference);
+                var res = 'success. transaction ref is ' + response.reference;
+                paymentSuccess(res);
             },
             onClose: function(){
                 // alert('window closed');
             }
         });
         handler.openIframe();
+    }
+    
+    function paymentSuccess(response){
+        window.location.href = "/?reference=" + response;
+    }
+    
+    function cancelPayment(){
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+        });
+        swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'No, continue!',
+            cancelButtonText: 'Yes, cancel!',
+            reverseButtons: true
+        }).then((result) => {
+            if (result.value) {
+                payWithPaystack();
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                    'Cancelled',
+                    'Thank you! God bless you :)',
+                    'error'
+                )
+            }
+        });
     }
 
     $("button[type='submit']").click(function () {
@@ -363,6 +399,7 @@
     $('#blogCarousel').carousel({
         interval: 5000
     });
+   
 
 </script>
 
