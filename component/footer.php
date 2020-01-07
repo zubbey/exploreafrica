@@ -116,7 +116,7 @@
                 ]
             },
             callback: function(response){
-                var res = 'success. transaction reference code is ' + response.reference;
+                let res = 'your donation has been received, your transaction reference code is ' + response.reference;
                 paymentSuccess(res);
             },
             onClose: function(){
@@ -172,7 +172,7 @@
             title: 'Thank you for supporting Explore Africa Foundation!',
             text: res,
             showConfirmButton: false,
-            timer: 5000
+            timer: 10000
         })
     }
 
