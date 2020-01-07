@@ -347,7 +347,7 @@
                 ]
             },
             callback: function(response){
-                var res = 'success. transaction ref is ' + response.reference;
+                var res = 'success. transaction reference code is ' + response.reference;
                 paymentSuccess(res);
             },
             onClose: function(){
@@ -390,6 +390,40 @@
                 )
             }
         });
+    }
+    
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+    
+    //################# CHECK URL PARAM FUNCTION ##################
+    function queryParameters () {
+        var result = {};
+        var params = window.location.search.split(/\?|\&/);
+        params.forEach( function(it) {
+            if (it) {
+                var param = it.split("=");
+                result[param[0]] = param[1];
+            }
+        });
+        return result;
+    }
+    if (queryParameters().payment === "true"){
+        
+        let res = getUrlVars()["reference"];
+        
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Thank you for supporting Explore Africa Foundation!',
+          text: res,
+          showConfirmButton: false,
+          timer: 1500
+        })
     }
 
     $("button[type='submit']").click(function () {
