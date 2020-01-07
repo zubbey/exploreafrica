@@ -143,7 +143,7 @@ if (empty($S_amount)){
 	}else if (isset($_POST['btn5'])) {
 		$S_amount = $opt5;
 	}else {
-		$message = "<strong>Select an amount to get Started </strong><span>or</span> enter an amount.";
+		$message = "";
 	}
 }
 function test_input($data){
