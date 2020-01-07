@@ -44,11 +44,43 @@ include('component/menu.php');
             <div class="col-md-6 m-auto text-center">
                 <h3 class="h1">For Cheque Donation or transfer, use Foundation Account below:</h3>
                 <ul>
-                    <li class="lead"><span>Account Name:</span> Mary Remarkable Foundation</li>
+                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <li class="lead"><span>Currency:</span>NGN</li>
 
-                    <li class="lead"><span>Account Number:</span> 1020551716</li>
+                    <li class="lead"><span>Account Number:</span> 0269404198</li>
 
-                    <li class="lead"><span>Bank:</span> UBA</li>
+                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
+                </ul>
+                <div class="divider"></div>
+                  <ul>
+                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <li class="lead"><span>Currency:</span>USD</li>
+
+                    <li class="lead"><span>Account Number:</span> 0269404253</li>
+
+                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
+                </ul>
+                <div class="divider"></div>
+                  <ul>
+                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <li class="lead"><span>Currency:</span>GBP</li>
+
+                    <li class="lead"><span>Account Number:</span> 0269403847</li>
+
+                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
+                </ul>
+                <div class="divider"></div>
+                  <ul>
+                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <li class="lead"><span>Currency:</span>EUR</li>
+
+                    <li class="lead"><span>Account Number:</span> 0269404260</li>
+
+                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
                 </ul>
             </div>
         </div>    
@@ -66,7 +98,7 @@ include('component/menu.php');
                         <button type="submit" name='btn4' class="btn btn-secondary btn-lg">&#8358; 50,000</button>
                         <button type="submit" name='btn5' class="btn btn-secondary btn-lg">&#8358; 100,000</button>
                         <img class="loading d-none" src="https://media.giphy.com/media/sSgvbe1m3n93G/giphy.gif">
-                        <input class="bold" name='amount_d' id="amount_d" value="USD: <?php echo $S_amount . '.00' ?>"
+                        <input class="bold" name='amount_d' id="amount_d" value="NGN: <?php echo $S_amount . '.00' ?>"
                                autocomplete="off" disabled>
                     </div>
                 </div>
@@ -77,7 +109,7 @@ include('component/menu.php');
                     <p class="h5">other amount</p>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">$</span>
+                            <span class="input-group-text">&#8358;</span>
                         </div>
                         <input name='other' type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
                                placeholder="Your Own Amount" value="<?php echo $S_amount; ?>">
