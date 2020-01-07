@@ -5,25 +5,7 @@ include('component/menu.php');
 
 ?>
 
-    <div id="modal" class="<?php echo $display_pay; ?>">
-        <div class="container">
-            <div class="row m-lg-5">
-                <div class="col-md-6 m-auto">
-                <div class="alert alert-info" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                  </button>
-                    <h4 class="alert-heading">Thank you for supporting!</h4>
-                      
-                    <p>please enter payment details to complete your donation.</p>
-                    <hr>
-                    <button class="btn default-button" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button">Enter Card Details</button>
-                </div>
-            </div>
-         </div>
-
-        </div>
-    </div>
+    <button class="d-none" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button"> </button>
 
     <!-- start banner Area -->
     <section class="banner-area-donate relative about-banner-donate p-5" id="home">
