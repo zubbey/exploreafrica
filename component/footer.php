@@ -334,7 +334,7 @@
             key: 'pk_live_bbbe431c147094b3ef0a4cbd5721831bd4850bc1',
             email: '<?php echo $emailAddress;?>',
             amount: <?php echo $S_amount;?> * 100,
-            currency: 'USD',
+            currency: 'NGN',
             ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
             metadata: {
                 custom_fields: [
