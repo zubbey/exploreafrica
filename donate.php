@@ -41,46 +41,36 @@ include('component/menu.php');
                     <?php echo $message; ?>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-6 m-auto text-center">
                 <h3 class="h1">For Cheque Donation or transfer, use Foundation Account below:</h3>
                 <ul>
-                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    <li class="lead bold"><span>Account Name:</span> Explore Africa Foundation</li>
                     
                     <li class="lead"><span>Currency:</span>NGN</li>
 
                     <li class="lead"><span>Account Number:</span> 0269404198</li>
-
-                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
-                </ul>
-                <div class="divider"></div>
-                  <ul>
-                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <div class="divider"></div>
                     
                     <li class="lead"><span>Currency:</span>USD</li>
 
                     <li class="lead"><span>Account Number:</span> 0269404253</li>
-
-                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
-                </ul>
-                <div class="divider"></div>
-                  <ul>
-                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <div class="divider"></div>
                     
                     <li class="lead"><span>Currency:</span>GBP</li>
 
                     <li class="lead"><span>Account Number:</span> 0269403847</li>
-
-                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
-                </ul>
-                <div class="divider"></div>
-                  <ul>
-                    <li class="lead"><span>Account Name:</span> Explore Africa Foundation</li>
+                    
+                    <div class="divider"></div>
                     
                     <li class="lead"><span>Currency:</span>EUR</li>
 
                     <li class="lead"><span>Account Number:</span> 0269404260</li>
 
-                    <li class="lead"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
+                    <li class="lead bold"><span>Bank:</span>Guaranty Trust Bank (GTB)</li>
                 </ul>
             </div>
         </div>    
