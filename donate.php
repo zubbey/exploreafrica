@@ -35,11 +35,23 @@ include('component/menu.php');
     <!-- End banner Area -->
     <!-- Start Payment form -->
     <section class="auto">
-        <div class="col">
-            <div class="alert alert-success text-center" style="background: #ffffff; border: none;">
-                <?php echo $message; ?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success text-center" style="background: #ffffff; border: none;">
+                    <?php echo $message; ?>
+                </div>
             </div>
-        </div>
+            <div class="col-md-6 m-auto text-center">
+                <h3 class="h1">For Cheque Donation or transfer, use Foundation Account below:</h3>
+                <ul>
+                    <li class="lead"><span>Account Name:</span> Mary Remarkable Foundation</li>
+
+                    <li class="lead"><span>Account Number:</span> 1020551716</li>
+
+                    <li class="lead"><span>Bank:</span> UBA</li>
+                </ul>
+            </div>
+        </div>    
         <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <div id="payOptions" class="row ">
 
@@ -48,11 +60,11 @@ include('component/menu.php');
                 <div class="col">
                     <p class="h5">Donate an amount</p>
                     <div id="first_form-row" class="form-row">
-                        <button type="submit" name='btn1' class="btn btn-secondary btn-lg">&#36; 25</button>
-                        <button type="submit" name='btn2' class="btn btn-secondary btn-lg">&#36; 40</button>
-                        <button type="submit" name='btn3' class="btn btn-secondary btn-lg">&#36; 100</button>
-                        <button type="submit" name='btn4' class="btn btn-secondary btn-lg">&#36; 300</button>
-                        <button type="submit" name='btn5' class="btn btn-secondary btn-lg">&#36; 500</button>
+                        <button type="submit" name='btn1' class="btn btn-secondary btn-lg">&#8358; 1,000</button>
+                        <button type="submit" name='btn2' class="btn btn-secondary btn-lg">&#8358; 5,000</button>
+                        <button type="submit" name='btn3' class="btn btn-secondary btn-lg">&#8358; 20,000</button>
+                        <button type="submit" name='btn4' class="btn btn-secondary btn-lg">&#8358; 50,000</button>
+                        <button type="submit" name='btn5' class="btn btn-secondary btn-lg">&#8358; 100,000</button>
                         <img class="loading d-none" src="https://media.giphy.com/media/sSgvbe1m3n93G/giphy.gif">
                         <input class="bold" name='amount_d' id="amount_d" value="USD: <?php echo $S_amount . '.00' ?>"
                                autocomplete="off" disabled>
