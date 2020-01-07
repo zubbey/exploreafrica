@@ -1,11 +1,5 @@
 <?php
 
-// baf2f924754a01
-//
-// d83411ef
-//
-// us-cdbr-iron-east-05.cleardb.net
-
 
 $message = '';
 $display_pay = 'hidden_pay';
@@ -13,11 +7,11 @@ $firstnameErr = $lastnameErr = $stateErr = $postalErr = $emailAddressErr = ""; /
 $firstname = $lastname = $state = $postal = $emailAddress = "";
 
 // amount selection session===============================
-$opt1 = '25';
-$opt2 = '40';
-$opt3 = '100';
-$opt4 = '300';
-$opt5 = '500';
+$opt1 = '1000';
+$opt2 = '5000';
+$opt3 = '20000';
+$opt4 = '50000';
+$opt5 = '100000';
 $S_amount = '';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {	
