@@ -2,10 +2,7 @@
 
 include_once 'validate.php';
 include('component/menu.php');
-
 ?>
-
-    <button class="d-none" onclick="payWithPaystack();" id="pay_btn" name="pay_btn" type="button"> </button>
 
     <!-- start banner Area -->
     <section class="banner-area-donate relative about-banner-donate p-5" id="home">
@@ -31,13 +28,13 @@ include('component/menu.php');
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 m-auto text-center">
+            <div class="col-md-8 m-auto text-center">
                 <h3 class="h1">For Cheque Donation or transfer, use Foundation Account below:</h3>
                  <ul>
-                    <li class="lead bold"><span>Account Name:</span> <h3>Explore Africa Foundation</h3></li>
-                     <li class="lead bold"><span>Bank:</span> <h3>Guaranty Trust Bank (GTB)</h3></li>
+                    <li class="lead bold"><span>Account Name:</span> <h4>Explore Africa Foundation</h4></li>
+                     <li class="lead bold"><span>Bank Name:</span> <h4>Guaranty Trust Bank (GTB)</h4></li>
                 </ul>
-                <div class="divider"></div>
+                <div class="divider my-2"></div>
                 <div class="row">
                   <div class="col-sm">
                     <div class="card">

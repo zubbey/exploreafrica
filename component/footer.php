@@ -76,7 +76,120 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="donate/app.js"></script>
+<script>
+    //################# CHECK URL PARAM FUNCTION ##################
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
 
+    function queryParameters () {
+        var result = {};
+        var params = window.location.search.split(/\?|\&/);
+        params.forEach( function(it) {
+            if (it) {
+                var param = it.split("=");
+                result[param[0]] = param[1];
+            }
+        });
+        return result;
+    }
+    let amount = getUrlVars()["amount"];
+    let email = getUrlVars()["email"];
+    function payWithPaystack(){
+        var handler = PaystackPop.setup({
+            key: 'pk_live_bbbe431c147094b3ef0a4cbd5721831bd4850bc1',
+            email: email,
+            amount: amount * 100,
+            currency: 'NGN',
+            ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+            metadata: {
+                custom_fields: [
+                    {
+                        display_name: "Mobile Number",
+                        variable_name: "mobile_number",
+                        value: "+2348012345678"
+                    }
+                ]
+            },
+            callback: function(response){
+                var res = 'success. transaction reference code is ' + response.reference;
+                paymentSuccess(res);
+            },
+            onClose: function(){
+                cancelPayment();
+                // alert('window closed');
+            }
+        });
+        handler.openIframe();
+    }
+
+    function paymentSuccess(response){
+        window.location.href = "/?payment=true&reference=" + response;
+    }
+
+    function cancelPayment(){
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+        });
+        swalWithBootstrapButtons.fire({
+            title: 'Do you really want to quit?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'No, continue!',
+            cancelButtonText: 'Yes, cancel!',
+            reverseButtons: true
+        }).then((result) => {
+            if (result.value) {
+                payWithPaystack();
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                    'Cancelled',
+                    'Thank you! God bless you :)',
+                    'error'
+                )
+            }
+        });
+    }
+
+    if (queryParameters().payment === "true"){
+
+        let res = getUrlVars()["reference"];
+
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Thank you for supporting Explore Africa Foundation!',
+            text: res,
+            showConfirmButton: false,
+            timer: 5000
+        })
+    }
+
+    if (queryParameters().payment_option === "true"){
+        payWithPaystack();
+    }
+
+    $("button[type='submit']").click(function () {
+        $('.loading').removeClass('d-none');
+        // alert('button clicked!');
+    })
+
+    $('#blogCarousel').carousel({
+        interval: 5000
+    });
+
+</script>
 <script>
     $(document).ready(function (){
         $(".navbar-toggler").click(function(){
@@ -268,11 +381,11 @@
 
     });
 
-    var l = window.location.href;
-    var home = 'http://www.exploreafricafoundation.org/index.php';
-    var work = 'http://www.exploreafricafoundation.org/work.php';
-    var about = 'http://www.exploreafricafoundation.org/about.php';
-    var login = 'http://www.exploreafricafoundation.org/login.php';
+    let l = window.location.href;
+    let home = 'http://www.exploreafricafoundation.org/index.php';
+    let work = 'http://www.exploreafricafoundation.org/work.php';
+    let about = 'http://www.exploreafricafoundation.org/about.php';
+    let login = 'http://www.exploreafricafoundation.org/login.php';
 
     let nav1 = document.querySelector('#nav1');
     let nav2 = document.querySelector('#nav2');
@@ -315,129 +428,5 @@
     }
 
 </script>
-
-<script>
-    $(document).ready(function() {
-
-        $('#modal').on('click', function(){
-            $(this).fadeOut('500');
-        });
-    });
-
-    function paystack(){
-        // alert("function call after submition");
-        payWithPaystack();
-        return false;
-    }
-
-    function payWithPaystack(){
-        var handler = PaystackPop.setup({
-            key: 'pk_live_bbbe431c147094b3ef0a4cbd5721831bd4850bc1',
-            email: '<?php echo $emailAddress;?>',
-            amount: <?php echo $S_amount;?> * 100,
-            currency: 'NGN',
-            ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-            metadata: {
-                custom_fields: [
-                    {
-                        display_name: "Mobile Number",
-                        variable_name: "mobile_number",
-                        value: "+2348012345678"
-                    }
-                ]
-            },
-            callback: function(response){
-                var res = 'success. transaction reference code is ' + response.reference;
-                paymentSuccess(res);
-            },
-            onClose: function(){
-                cancelPayment();
-                // alert('window closed');
-            }
-        });
-        handler.openIframe();
-    }
-    
-    function paymentSuccess(response){
-        window.location.href = "/?payment=true&reference=" + response;
-    }
-    
-    function cancelPayment(){
-        const swalWithBootstrapButtons = Swal.mixin({
-            customClass: {
-                confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
-            },
-            buttonsStyling: false
-        });
-        swalWithBootstrapButtons.fire({
-            title: 'Are you sure?',
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonText: 'No, continue!',
-            cancelButtonText: 'Yes, cancel!',
-            reverseButtons: true
-        }).then((result) => {
-            if (result.value) {
-                payWithPaystack();
-            } else if (
-                /* Read more about handling dismissals below */
-                result.dismiss === Swal.DismissReason.cancel
-            ) {
-                swalWithBootstrapButtons.fire(
-                    'Cancelled',
-                    'Thank you! God bless you :)',
-                    'error'
-                )
-            }
-        });
-    }
-    
-    function getUrlVars() {
-        var vars = {};
-        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-            vars[key] = value;
-        });
-        return vars;
-    }
-    
-    //################# CHECK URL PARAM FUNCTION ##################
-    function queryParameters () {
-        var result = {};
-        var params = window.location.search.split(/\?|\&/);
-        params.forEach( function(it) {
-            if (it) {
-                var param = it.split("=");
-                result[param[0]] = param[1];
-            }
-        });
-        return result;
-    }
-    if (queryParameters().payment === "true"){
-        
-        let res = getUrlVars()["reference"];
-        
-        Swal.fire({
-          position: 'center',
-          icon: 'success',
-          title: 'Thank you for supporting Explore Africa Foundation!',
-          text: res,
-          showConfirmButton: false,
-          timer: 1500
-        })
-    }
-
-    $("button[type='submit']").click(function () {
-        $('.loading').removeClass('d-none');
-        // alert('button clicked!');
-    })
-
-    $('#blogCarousel').carousel({
-        interval: 5000
-    });
-   
-
-</script>
-
 </body>
 </html>
