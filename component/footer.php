@@ -358,7 +358,7 @@
     }
     
     function paymentSuccess(response){
-        window.location.href = "/?reference=" + response;
+        window.location.href = "/?payment=true&reference=" + response;
     }
     
     function cancelPayment(){
