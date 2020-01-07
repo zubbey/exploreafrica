@@ -351,6 +351,7 @@
                 paymentSuccess(res);
             },
             onClose: function(){
+                cancelPayment();
                 // alert('window closed');
             }
         });
