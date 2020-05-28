@@ -146,19 +146,20 @@ include('component/menu.php');
                                 <span class="input-group-text" id="inputGroupFileAddon01">Choose Campaign</span>
                             </div>
                             <select name='choose' class="custom-select custom-select required">
-                                <option value="1" selected>Back to School Support Project</option>
-                                <option value="2">Youth Konnect for Peace Network</option>
-                                <option value="3">Free Health Care Support Services</option>
-                                <option value="4">Free Skill Acquisition and Entrepreneurship Training</option>
-                                <option value="5">Schools Educational outreach</option>
-                                <option value="6">Young leaders mentoring programme</option>
-                                <option value="7">Electoral Violence & Drug Abuse Campaign</option>
-                                <option value="8">Renovation and upgrade of community schools libraries and
+                                <option value="1" selected>Covid-19 Awareness Campaign</option>
+                                <option value="2">Back to School Support Project</option>
+                                <option value="3">Youth Konnect for Peace Network</option>
+                                <option value="4">Free Health Care Support Services</option>
+                                <option value="5">Free Skill Acquisition and Entrepreneurship Training</option>
+                                <option value="6">Schools Educational outreach</option>
+                                <option value="7">Young leaders mentoring programme</option>
+                                <option value="8">Electoral Violence & Drug Abuse Campaign</option>
+                                <option value="9">Renovation and upgrade of community schools libraries and
                                     laboratories
                                 </option>
-                                <option value="9">Educational support and scholarship programme</option>
-                                <option value="10">Summer ICT and Personal development bootcamp</option>
-                                <option value="11">Youth Enterprise Development</option>
+                                <option value="10">Educational support and scholarship programme</option>
+                                <option value="11">Summer ICT and Personal development bootcamp</option>
+                                <option value="12">Youth Enterprise Development</option>
                             </select>
                         </div>
                     </div>
