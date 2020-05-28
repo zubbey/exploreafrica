@@ -2,10 +2,10 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://i.imgur.com/9qlovwj.jpg" class="d-block w-100" alt="...">
+                <img src="https://westand.one/img/banner_img.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="caption-heading">We Want to <br> Reach Thousands</h5>
-                    <p class="caption-body">But We Can't Do It Without You. <button class="btn" type="button"><a class="button-link" href="../donate.php">Join Us </a></button></p>
+                    <h5 class="caption-heading">Help Fight <br> Covid-19</h5>
+                    <p class="caption-body">Join us on <b>Covid-19 awareness campaign</b> to control the spread.<button class="btn" type="button"><a class="button-link" href="../donate.php">Join Us </a></button></p>
                 </div>
             </div>
             <div class="carousel-item">
