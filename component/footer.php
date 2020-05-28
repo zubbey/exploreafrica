@@ -192,7 +192,7 @@
 
 </script>
 <script>
-    const currencySymbol = document.querySelector('span.currencySymbol');
+    const currencySymbol = document.querySelector('.currencySymbol');
     currencySymbol.text('&#36;');
     
     $(document).ready(function (){
