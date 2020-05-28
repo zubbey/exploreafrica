@@ -99,12 +99,13 @@
     }
     let amount = getUrlVars()["amount"];
     let email = getUrlVars()["email"];
+    let currency = getUrlVars()["currency"];
     function payWithPaystack(){
         var handler = PaystackPop.setup({
             key: 'pk_live_bbbe431c147094b3ef0a4cbd5721831bd4850bc1',
             email: email,
             amount: amount * 100,
-            currency: 'NGN',
+            currency: currency,
             ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
             metadata: {
                 custom_fields: [
@@ -191,7 +192,21 @@
 
 </script>
 <script>
+    const currencySymbol = document.querySelector('span.currencySymbol');
+    currencySymbol.text('&#36;');
+    
     $(document).ready(function (){
+        
+        $("#currency").change(function(e){
+            if(e.currentTarget.value === 'USD'){
+                currencySymbol.text('&#36;');
+            } else if(e.currentTarget.value === 'NGN'){
+                currencySymbol.text('&#8358');
+            } else {
+                console.log(e.currentTarget.value);
+            }
+        });
+        
         $(".navbar-toggler").click(function(){
             $(this).toggleClass("icon-rotate");
         });
