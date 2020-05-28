@@ -223,7 +223,10 @@
                 $('.nav-link').removeClass('text-dark');
             }
         });
-
+        $('#more0').click(function () {
+            $('.card-text.0').toggleClass('show-more');
+            $('.card-img-top.0').toggleClass('crop-img');
+        });
         $('#more1').click(function () {
             $('.card-text.1').toggleClass('show-more');
             $('.card-img-top.1').toggleClass('crop-img');
