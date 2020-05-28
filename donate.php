@@ -79,13 +79,13 @@ include('component/menu.php');
                 <div class="col">
                     <p class="h5">Donate an amount</p>
                     <div id="first_form-row" class="form-row">
-                        <button type="submit" name='btn1' class="btn btn-secondary btn-lg">&#8358; 1,000</button>
-                        <button type="submit" name='btn2' class="btn btn-secondary btn-lg">&#8358; 5,000</button>
-                        <button type="submit" name='btn3' class="btn btn-secondary btn-lg">&#8358; 20,000</button>
-                        <button type="submit" name='btn4' class="btn btn-secondary btn-lg">&#8358; 50,000</button>
-                        <button type="submit" name='btn5' class="btn btn-secondary btn-lg">&#8358; 100,000</button>
+                        <button type="submit" name='btn1' class="btn btn-secondary btn-lg"><span class="currencySymbol"></span> 1,000</button>
+                        <button type="submit" name='btn2' class="btn btn-secondary btn-lg"><span class="currencySymbol"></span> 5,000</button>
+                        <button type="submit" name='btn3' class="btn btn-secondary btn-lg"><span class="currencySymbol"></span> 20,000</button>
+                        <button type="submit" name='btn4' class="btn btn-secondary btn-lg"><span class="currencySymbol"></span> 50,000</button>
+                        <button type="submit" name='btn5' class="btn btn-secondary btn-lg"><span class="currencySymbol"></span> 100,000</button>
                         <img class="loading d-none" src="https://media.giphy.com/media/sSgvbe1m3n93G/giphy.gif">
-                        <input class="bold" name='amount_d' id="amount_d" value="NGN: <?php echo $S_amount . '.00' ?>"
+                        <input class="bold" name='amount_d' id="amount_d" value="<?php echo $S_amount . '.00' ?>"
                                autocomplete="off" disabled>
                     </div>
                 </div>
@@ -94,9 +94,20 @@ include('component/menu.php');
 
                 <div class="col">
                     <p class="h5">other amount</p>
+                    
+                    <!-- currency &#36; &#8358; -->
+                    <div class="form-row input-group my-2">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupFileAddon01">Choose Currency</span>
+                        </div>
+                        <select id="currency" name="currency" class="custom-select custom-select required">
+                            <option value="USD" selected="">American USD</option>
+                            <option value="NGN">Nigerian NGN</option>
+                        </select>
+                    </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">&#8358;</span>
+                            <span class="input-group-text currencySymbol"></span>
                         </div>
                         <input name='other' type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
                                placeholder="Your Own Amount" value="<?php echo $S_amount; ?>">
