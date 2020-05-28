@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		}
 		if (!empty($S_amount) && !empty($_POST['email']) && !empty($_POST['fname']) && !empty($_POST['lname']) && !empty($_POST['state']) && !empty($_POST['postal'])){
 //			$display_pay = "";
-			header("Location: ?payment_option=true&amount=".$S_amount."&email=".$_POST['email']);
+			header("Location: ?payment_option=true&currency=".$_POST['currency']."&amount=".$S_amount."&email=".$_POST['email']);
 //			exit();
 		}
 		if (!isset($_POST["checkbox1"])) {  //if the donate annoymously is not checked then validate
@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 				if (!empty($S_amount) && !empty($_POST['email'])){
 					$firstnameErr = $lastnameErr = $stateErr = $postalErr = "";
 //					$display_pay = "";
-					header("Location: ?payment_option=true&amount=".$S_amount."&email=".$_POST['email']);
+					header("Location: ?payment_option=true&currency=".$_POST['currency']."&amount=".$S_amount."&email=".$_POST['email']);
 					if (empty($_POST["email"])) {
 						$emailAddressErr = "Email is required";
 					} else {
