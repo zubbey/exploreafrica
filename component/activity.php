@@ -26,7 +26,7 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <h5 class="medium-heading pb-3">Covid-19 Awareness Campaign</h5>
-                        <img src="https://instagram.flos9-1.fna.fbcdn.net/v/t51.2885-15/e35/101037408_667890737101907_6503218311042846890_n.jpg?_nc_ht=instagram.flos9-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=oKCRItCCiDwAX8jRD72&oh=d27e54ef1e4a30e2d2b1b35450478b4d&oe=5EFAC14C" class="card-img-top 0" alt="...">
+                        <img src="https://i.imgur.com/LZhRfdu.jpg" class="card-img-top 0" alt="...">
                         <p class="card-text 0 pt-3"> Coronavirus Is Grinding The Country To A Halt With School And Business Closures And Health Workers Stretched. Tales Of Shop Shelves Being Emptied By Panic Buyers And Government Social Distancing Advice Being Ignored Have Brought Criticism, But The Outbreak Is Also Bringing The Best Out In Some People.</p>
                         <div class="divider"></div>
                         <p class="card-text pt-2"><small class="text-muted">Last updated 4 Weeks ago</small> <span
