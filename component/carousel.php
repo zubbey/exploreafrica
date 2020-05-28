@@ -5,7 +5,7 @@
                 <img src="https://westand.one/img/banner_img.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="caption-heading">Help Fight <br> Covid-19</h5>
-                    <p class="caption-body">Join us on <b>Covid-19 awareness campaign</b> to control the spread.<button class="btn" type="button"><a class="button-link" href="../donate.php">Join Us </a></button></p>
+                    <p class="caption-body">Join us on Covid-19 awareness campaign to control the spread.<button class="btn" type="button"><a class="button-link" href="../donate.php">Join Us </a></button></p>
                 </div>
             </div>
             <div class="carousel-item">
