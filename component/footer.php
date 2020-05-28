@@ -193,15 +193,15 @@
 </script>
 <script>
     let currencySymbol = $('.currencySymbol');
-    currencySymbol.text('&#36;');
+    currencySymbol.html('&#36;');
     
     $(document).ready(function (){
         
         $("#currency").change(function(e){
             if(e.currentTarget.value === 'USD'){
-                currencySymbol.text('&#36;');
+                currencySymbol.html('&#36;');
             } else if(e.currentTarget.value === 'NGN'){
-                currencySymbol.text('&#8358');
+                currencySymbol.html('&#8358');
             } else {
                 console.log(e.currentTarget.value);
             }
