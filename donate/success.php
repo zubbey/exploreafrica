@@ -16,9 +16,9 @@ $sql = "INSERT INTO donated (email, amount, transaction, date)
 VALUES ('$email', '$amount', true, NOW())";
 
 if (mysqli_query($conn, $sql)) {
-  echo "Donation Successfully!";
+  echo "<div class='alert alert-success text-center'>Donation was Successfully!</div>";
 } else {
-  echo "something went wrong". $sql . "<br>" . mysqli_error($conn);;
+  echo "<div class='alert alert-error text-center'>something went wrong". $sql . "<br>" . mysqli_error($conn) . "</div>";
 }
 
 mysqli_close($conn);
