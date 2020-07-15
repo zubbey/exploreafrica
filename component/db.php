@@ -1,5 +1,5 @@
 <?php
 $servername = "localhost";
-$username = "ibranwvf_explore";
+$username = "explore";
 $password = ";SHWB2)aP{}{";
 $dbname = "ibranwvf_exploreafricafoundation";
