@@ -118,7 +118,7 @@
             },
             callback: function(response){
                 let res = 'your donation has been received, your transaction reference code is ' + response.reference;
-                paymentSuccess(res);
+                paymentSuccess(res, email, amount);
             },
             onClose: function(){
                 cancelPayment();
@@ -128,8 +128,8 @@
         handler.openIframe();
     }
 
-    function paymentSuccess(response){
-        window.location.href = "/?payment=true&reference=" + response;
+    function paymentSuccess(response, email, amount){
+        window.location.href = "/?payment=true&email=" + email + "&amount=" + amount + "&reference=" + response;
     }
 
     function cancelPayment(){
@@ -166,6 +166,10 @@
     if (queryParameters().payment === "true"){
 
         let res = getUrlVars()["reference"];
+        let data = {
+            email: getUrlVars()["email"],
+            amount: getUrlVars()["amount"]
+        }
 
         Swal.fire({
             position: 'center',
@@ -174,7 +178,23 @@
             text: res,
             showConfirmButton: false,
             timer: 10000
-        })
+        });
+        
+        $.ajax({
+            url: './donate/success.php',
+            type: 'post',
+            dataType  : 'json',
+            contentType: 'application/json',
+            async: true,
+            data: data,
+            processData: false,
+            success: function(response){
+                    $("#status").html(response);
+            },
+            error: function(error){
+                $("#status").html(error);
+            }
+        });
     }
 
     if (queryParameters().payment_option === "true"){
