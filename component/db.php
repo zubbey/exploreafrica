@@ -1,5 +1,5 @@
 <?php
 $servername = "localhost";
 $username = "explore";
-$password = ";SHWB2)aP{}{";
-$dbname = "exploreafricafoundation";
+$password = "Hzjg0nvc04SL";
+$dbname = "exploreafricafoundation_db";
