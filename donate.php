@@ -22,6 +22,7 @@ include('component/menu.php');
     <section class="auto">
         <div class="row">
             <div class="col">
+                <div id="status"></div>
                 <div class="alert alert-success text-center" style="background: #ffffff; border: none;">
                     <?php echo $message; ?>
                 </div>
